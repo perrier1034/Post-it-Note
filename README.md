@@ -1,13 +1,19 @@
-# Scalappy Bird
+# Post-it-Note
+Android Memorandum Application like Google keep.
+##### keywords:
+- Scala 
+- Evernote SDK
+- Material design
 
-Android game example written in scala.
-勉強会の課題として作ったゲームアプリです。
+## Supported features of memos
+- Normal plain text
+- Checklist can be sorted
+- Alarm function
+- Attaching images (taken on the spot/ in your storage)
+- Saving in Evernote (immediately / in bulk later)
 
-## Documents
+## Managing memos
+- Categorizing memos and browsing on tab
+- Coloring tabs
+- Multi-selection of memos for re-categorising, saving in Evernote, and deletion
 
-以下のドキュメントを参考に開発環境をセットアップしてください。
-
-1. [Scala のインストール](https://github.com/geishatokyo/scalappybird/blob/master/docs/ScalaInstall.md)
-2. [Android の開発環境構築](https://github.com/geishatokyo/scalappybird/blob/master/docs/AndroidSetup.md)
-3. [アプリの開発準備](https://github.com/geishatokyo/scalappybird/blob/master/docs/ApplicationSetup.md)
-4. [勉強会の課題内容](https://github.com/geishatokyo/scalappybird/blob/master/docs/Development.md)
