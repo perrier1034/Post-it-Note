@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Post-it Note</string>
+    <string name="action_settings">設定</string>
+    <string name="cleared_alarm">リマインダーを解除しました</string>
+    <string name="notebook_delete_warning">このページを削除してもいいですか?</string>
+    <string name="popup_resurrection">元に戻す</string>
+    <string name="delete">削除</string>
+    <string name="rename_page">ページ名を変更</string>
+    <string name="clean_rubbish">ゴミ箱を空にする</string>
+    <string name="clean_rubbish_toast">ゴミ箱を空にしました。</string>
+    <string name="wipe_selected_notes">選択したノートを完全に削除</string>
+    <string name="wipe_selected_notes_toast">選択したノートを完全に削除しました</string>
+    <string name="ressurect_selected_notes_toast">選択したノートを復元しました</string>
+    <string name="alarm_setted">指定日に通知されます</string>
+    <string name="warning_delete_page_completely">本当に選択したノートを削除しますか?</string>
+    <string name="warning_resurrect_page">ノートをゴミ箱から戻しますか?</string>
+    <string name="warning_resurrect_page_multi_select">ノートをゴミ箱から戻しますか?</string>
+
+    <string name="filtering">フィルター ...</string>
+    <string name="edialog_body">本文 ...</string>
+    <string name="edialog_title">Title ...</string>
+    <string name="edialog_warnimg_maxlen">12文字以内にしてください</string>
+
+    <string name="nav_drawer_sort_section">ノートの並び順</string>
+    <string name="nav_drawer_sort_update">更新順</string>
+    <string name="nav_drawer_sort_create">作成順</string>
+    <!--<string name="nav_drawer_mode_section">ノートの表示方法</string>-->
+    <string name="nav_drawer_setting_section">その他</string>
+    <string name="nav_drawer_setting_page">ページ設定</string>
+    <string name="nav_drawer_setting_rubbish">ゴミ箱</string>
+    <string name="nav_drawer_setting_others">設定</string>
+    <string name="nav_drawer_edam">連携</string>
+
+    <!--<string name="cdialog_warning_delete_all">このページ内の全ノートを削除していいですか?</string>-->
+    <string name="cdialog_warning_delete_page">このページを削除していいですか?（含まれるノートも完全に削除されます）</string>
+    <string name="cdialog_warning_clear_rubbish">ゴミ箱を空にします。</string>
+    <string name="cdialog_title_import_db">バックアップの復元</string>
+    <string name="cdialog_warning_import_db">現在のデータは上書きされます</string>
+    <string name="cdialog_warning_destroy_selected_notes">選択したノートを完全に削除します。</string>
+
+    <string name="cdialog_navigation_edam_login">Evernote と連携しますか?\n連携すると、Evernoteのノートブックへ直接保存できるようになります。</string>
+    <string name="cdialog_navigation_edam_logout">連携を解除しますか?（何度でも再認証できます）</string>
+    <string name="cdialog_navigation_edam_login_title">認証</string>
+    <string name="cdialog_navigation_edam_logout_title">ログアウト</string>
+
+    <string name="ldialog_transfer">選択中のノートを移動する</string>
+
+    <string name="popup_capture_image">カメラを起動</string>
+    <string name="popup_select_image">ビューアーから選ぶ</string>
+    <string name="popup_warning_remove_image">ノートから消去する</string>
+
+
+    <string name="color_chooser">Page color</string>
+
+    <!--<string name="snack_log_deleted">ノートをゴミ箱に移動しましました。</string>-->
+    <string name="snack_log_deleted_note_selected">選択したノートをゴミ箱に移動しましました。</string>
+    <string name="snack_button_resurrection">取り消す</string>
+    <string name="snack_log_deleted">ゴミ箱に移動しました</string>
+
+    <string name="menu_more_sort">ノート並び替え</string>
+    <string name="menu_more_settings">設定</string>
+    <string name="menu_title_filter">フィルター</string>
+    <!--<string name="menu_share">共有</string>-->
+
+    <string name="action_menu_select_all">すべてのノートを選択</string>
+    <string name="action_menu_delete_selected">選択中のノートを削除</string>
+    <string name="action_menu_notes_transfer">選択中のノートを他のページに移動</string>
+    <string name="action_menu_share">共有</string>
+
+    <!--<string name="setting_title_ui_setting">UI設定</string>-->
+    <string name="setting_title_others">その他</string>
+    <!--<string name="setting_subt_font_size">文字サイズ</string>-->
+    <!--<string name="setting_subt_wipe_db">"全データ削除"</string>-->
+    <string name="setting_subt_backup">バックアップ</string>
+    <string name="setting_subt_import">バックアップを復元</string>
+
+    <string name="activity_rubbish">ゴミ箱</string>
+    <string name="activity_core">Post-it-Note</string>
+    <string name="activity_settings">設定</string>
+    <string name="activity_page_setting">ページ管理</string>
+
+    <string name="toast_reaching_max_page_count">ページの数が上限 (10) に達しています。既存のページを削除してください。</string>
+    <string name="toast_warning_page_all_edit">`All`ページは名前変更、削除できません。</string>
+    <string name="toast_edam_saved_note">Evernoteに保存しました</string>
+    <string name="toast_edam_save_note_error">ノートの保存に失敗しました</string>
+    <string name="toast_edam_read_notebooks_error">ノートブックリストの読み込みに失敗しました</string>
+    <string name="toast_edam_auth_error">Evernote への認証に失敗しました</string>
+    <string name="toast_edam_auth_success">Evernote への認証に成功しました</string>
+    <string name="toast_edam_saving">保存中...</string>
+
+    <string name="fab_component_new_note">ノート</string>
+    <string name="fab_component_new_list">チェックリスト</string>
+
+    <string name="toast_not_saved_new_note">保存されませんでした</string>
+
+    <string name="action_mode_evernote">選択中のノートを Evernote に保存する</string>
+
+    <string name="page_setting_header">長押しで並び替えできます</string>
+
+    <string name="nef_sub_title">タイトル</string>
+    <string name="nef_body">本文</string>
+
+    <string-array name="textsize_entries">
+        <item>"小"</item>
+        <item>"中"</item>
+        <item>"大"</item>
+    </string-array>
+
+    <string-array name="textsize_entryvalues">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+</resources>

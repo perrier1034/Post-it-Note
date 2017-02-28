@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <!--app:theme="@style/Theme.Toolbar"-->
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <View
+                android:id="@+id/status_bar"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:visibility="gone"/>
+
+        <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                    <!--app:theme="@style/Theme.Toolbar"-->
+            <!--android:minHeight="?attr/actionBarSize"-->
+
+        </LinearLayout>
+
+        <com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu
+                android:id="@+id/fam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginRight="6dp"
+                fab:fab_labelStyle="@style/menu_labels_style">
+            <!--fab:fab_icon="@drawable/ic_action_content_create">-->
+
+            <com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton
+                    android:id="@+id/fab_new_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_icon="@drawable/ic_action_note_add"
+                    fab:fab_title="@string/fab_component_new_note"/>
+
+            <com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton
+                    android:id="@+id/fab_new_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_icon="@drawable/ic_action_list_add"
+                    fab:fab_title="@string/fab_component_new_list"/>
+
+        </com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu>
+
+    </FrameLayout>
+
+    <include layout="@layout/drawer_layout"/>
+
+</android.support.v4.widget.DrawerLayout>

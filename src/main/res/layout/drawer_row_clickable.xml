@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/activatedBackgroundIndicator"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall">
+
+    <ImageView
+        android:id="@+id/drawer_row_clickable_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:id="@+id/drawer_row_clickable_label"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/drawer_row_clickable_icon"
+        android:layout_toRightOf="@id/drawer_row_clickable_icon"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="28dp"
+        android:textSize="@dimen/text_size_large"/>
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Post-it Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="acra_dialog_title">CrashReport</string>
+    <string name="acra_dialog_text">Unexpected error occurred, App will shutdown.\nCould you send CrashReport ?</string>
+    <string name="acra_dialog_comment_prompt">You can put comment.</string>
+
+    <string name="cleared_alarm">Alarm was cleared.</string>
+    <string name="notebook_delete_warning">Delete this notebook.</string>
+    <string name="popup_resurrection">Resurrect</string>
+    <string name="delete">Delete</string>
+    <string name="rename_page">Rename</string>
+    <string name="clean_rubbish">Clean rubbish</string>
+    <string name="clean_rubbish_toast">Cleaned rubbish</string>
+    <string name="wipe_selected_notes">Delete selected note(s)</string>
+    <string name="wipe_selected_notes_toast">Deleted selected note(s) completely</string>
+    <string name="ressurect_selected_notes_toast">Resurrected selected note(s)</string>
+    <string name="alarm_setted">Notification will be sent on the day.</string>
+    <string name="filtering">Filtering ...</string>
+    <string name="new_notebook">New</string>
+    <string name="warning_delete_page_completely">Are you sure to delete this tab?</string>
+    <string name="warning_resurrect_page">Resurrect note from rubbish?</string>
+    <string name="warning_resurrect_page_multi_select">Resurrect selected note from rubbish?</string>
+
+    <string name="ldialog_delete_notebook">Delete this Page</string>
+    <string name="ldialog_edit_notebook">Edit title</string>
+
+    <string name="cdialog_warning_clear_rubbish">Are you sure to clear rubbish?</string>
+    <string name="cdialog_title_import_db">Import</string>
+    <string name="cdialog_warning_delete_db">You will not be able to resurrect data.</string>
+    <string name="cdialog_warning_import_db">Current data will be overwritten.</string>
+    <string name="cdialog_warning_empty_note">Note is empty. Discard this?</string>
+    <string name="popup_warning_remove_image">Remove from note</string>
+
+    <string name="cdialog_navigation_edam_login">Link with Evernote? After that, You can save a note in "Evernote notebook" directly</string>
+    <string name="cdialog_navigation_edam_login_title">Link</string>
+    <string name="cdialog_navigation_edam_logout">You can re-login at anytime</string>
+    <string name="cdialog_navigation_edam_logout_title">Logout</string>
+
+    <string name="edialog_body">Body ...</string>
+    <string name="edialog_title">Title ...</string>
+    <string name="edialog_content">Notebook Title ...</string>
+
+    <string name="ldialog_transfer">Transfer selected Items</string>
+
+    <string name="popup_capture_image">Capture photo</string>
+    <string name="popup_select_image">Select from viewer</string>
+
+    <string name="pdialog_select_image">Loading notebooks</string>
+
+    <string name="color_chooser">Page color</string>
+
+    <string name="nav_drawer_sort_section">Order of note</string>
+    <string name="nav_drawer_sort_update">Last Modified</string>
+    <string name="nav_drawer_sort_create">Creating</string>
+    <string name="nav_drawer_setting_section">Others</string>
+    <string name="nav_drawer_setting_page">Page Setting</string>
+    <string name="nav_drawer_setting_rubbish">Rubbish</string>
+    <string name="nav_drawer_setting_others">Settings</string>
+    <string name="nav_drawer_edam">Link</string>
+
+    <string name="snack_log_deleted_note_selected">Deleted selected note(s)</string>
+    <string name="snack_log_deleted">Moved Note to trash box</string>
+    <string name="snack_button_resurrection">"Undo”</string>
+
+    <string name="menu_more_sort">Sort note</string>
+    <string name="menu_more_settings">Settings</string>
+    <string name="menu_title_filter">Filter</string>
+
+    <string name="action_menu_select_all">Select all</string>
+    <string name="action_menu_delete_selected">Delete selecting note(s)</string>
+    <string name="action_menu_notes_transfer">Transfer selecting note(s) to other pages</string>
+    <string name="action_menu_share">Share</string>
+    <string name="setting_title_others">Others</string>
+    <string name="setting_subt_font_size">Font Size</string>
+    <string name="setting_subt_bar_font_color">Font Color of Toolbar</string>
+    <string name="setting_subt_backup">Backup the current state</string>
+    <string name="setting_subt_import">Import from backup</string>
+
+    <string name="activity_rubbish">Rubbish</string>
+    <string name="activity_core">Post-it-Note</string>
+    <string name="activity_settings">Settings</string>
+    <string name="activity_page_setting">Pages</string>
+
+    <string name="toast_reaching_max_page_count">The number of pages are reaching limit (10).\n Delete existing pages.</string>
+    <string name="toast_warning_page_all_edit">You cannot delete or rename `All`</string>
+    <string name="toast_edam_saved_note">Saved to Evernote successfully</string>
+    <string name="toast_edam_save_note_error">Failed in saving to Evernote</string>
+    <string name="toast_edam_read_notebooks_error">Failed in loading notebooks</string>
+    <string name="toast_edam_auth_error">Failed in authentication to Evernote!</string>
+    <string name="toast_edam_auth_success">Authentication to Evernote success!</string>
+    <string name="toast_edam_saving">Saving...</string>
+
+    <string name="fab_component_new_note">Note</string>
+    <string name="fab_component_new_list">Check list</string>
+
+    <string name="toast_not_saved_new_note">Note has not been saved</string>
+
+    <string name="action_mode_evernote">Save in Evernote</string>
+
+    <string name="page_setting_header">Long tap to reorder</string>
+
+    <string name="nef_sub_title">Title</string>
+    <string name="nef_body">Content</string>
+
+    <string name="edam_no_title">No Title</string>
+
+    <string-array name="textsize_entries">
+        <item>"small"</item>
+        <item>"medium"</item>
+        <item>"large"</item>
+    </string-array>
+
+    <string-array name="textsize_entryvalues">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="edialog_warnimg_maxlen">Letter count is limited to 12</string>
+    <string name="cdialog_warning_destroy_selected_notes">Selected Notes will be completely deleted</string>
+    <string name="cdialog_warning_delete_page">Notes this page contains will be deleted completely.</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.perrier.todomanager.ui.PageManager">
+
+    <item
+        android:id="@+id/f_attach_image"
+        android:icon="@drawable/ic_action_attach_image"
+        android:title="@string/menu_title_filter"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="always"-->
+
+    <item
+        android:id="@+id/f_share"
+        android:icon="@drawable/ic_action_social_share"
+        android:title="share"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="always"-->
+
+    <item
+        android:id="@+id/f_alarm_set"
+        android:icon="@drawable/ic_action_alarm_add"
+        android:title="set_reminder"
+        android:visible="false"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="always"-->
+
+    <item
+        android:id="@+id/f_alarm_clear"
+        android:icon="@drawable/ic_action_alarm_off"
+        android:title="clear alrm"
+        android:visible="false"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="always"-->
+
+    <item
+        android:id="@+id/f_export_evernote"
+        android:icon="@drawable/edam_s"
+        android:title="evernote"
+        android:visible="false"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="always"-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_send"-->
+        <!--android:icon="@drawable/ic_action_send"-->
+        <!--android:title="clear reminder"-->
+        <!--app:showAsAction="always"-->
+        <!--tools:ignore="HardcodedText,UnusedAttribute"/>-->
+
+</menu>

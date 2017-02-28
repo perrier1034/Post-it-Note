@@ -1,0 +1,2304 @@
+android.support.design.internal.ForegroundLinearLayout: ForegroundLinearLayout(android.content.Context)
+android.support.design.internal.ForegroundLinearLayout: ForegroundLinearLayout(android.content.Context,android.util.AttributeSet)
+android.support.design.internal.ForegroundLinearLayout: ForegroundLinearLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.design.internal.ForegroundLinearLayout: int getForegroundGravity()
+android.support.design.internal.ForegroundLinearLayout: void setForegroundGravity(int)
+android.support.design.internal.ForegroundLinearLayout: void setForeground(android.graphics.drawable.Drawable)
+android.support.design.internal.ForegroundLinearLayout: android.graphics.drawable.Drawable getForeground()
+android.support.design.internal.NavigationMenuItemView
+android.support.design.internal.NavigationMenuItemView: NavigationMenuItemView(android.content.Context)
+android.support.design.internal.NavigationMenuItemView: NavigationMenuItemView(android.content.Context,android.util.AttributeSet)
+android.support.design.internal.NavigationMenuItemView: NavigationMenuItemView(android.content.Context,android.util.AttributeSet,int)
+android.support.design.internal.NavigationMenuItemView: void setActionView(android.view.View)
+android.support.design.internal.NavigationMenuItemView: android.support.v7.internal.view.menu.MenuItemImpl getItemData()
+android.support.design.internal.NavigationMenuItemView: void setTitle(java.lang.CharSequence)
+android.support.design.internal.NavigationMenuItemView: void setCheckable(boolean)
+android.support.design.internal.NavigationMenuItemView: void setChecked(boolean)
+android.support.design.internal.NavigationMenuItemView: void setIcon(android.graphics.drawable.Drawable)
+android.support.design.internal.NavigationMenuItemView: void setIconTintList(android.content.res.ColorStateList)
+android.support.design.internal.NavigationMenuItemView: void setTextColor(android.content.res.ColorStateList)
+android.support.design.internal.NavigationMenuView
+android.support.design.internal.NavigationMenuView: NavigationMenuView(android.content.Context)
+android.support.design.internal.NavigationMenuView: NavigationMenuView(android.content.Context,android.util.AttributeSet)
+android.support.design.internal.NavigationMenuView: NavigationMenuView(android.content.Context,android.util.AttributeSet,int)
+android.support.design.internal.NavigationMenuView: int getWindowAnimations()
+android.support.design.internal.ParcelableSparseArray
+android.support.design.internal.ParcelableSparseArray: android.os.Parcelable$Creator CREATOR
+android.support.design.widget.AppBarLayout: void setOrientation(int)
+android.support.design.widget.AppBarLayout: void setExpanded(boolean)
+android.support.design.widget.AppBarLayout: int getTotalScrollRange()
+android.support.design.widget.AppBarLayout: int getUpNestedPreScrollRange()
+android.support.design.widget.AppBarLayout: int getDownNestedPreScrollRange()
+android.support.design.widget.AppBarLayout: int getDownNestedScrollRange()
+android.support.design.widget.AppBarLayout: int getMinimumHeightForVisibleOverlappingContent()
+android.support.design.widget.AppBarLayout: void setTargetElevation(float)
+android.support.design.widget.AppBarLayout: float getTargetElevation()
+android.support.design.widget.AppBarLayout: int getPendingAction()
+android.support.design.widget.AppBarLayout: int getTopInset()
+android.support.design.widget.AppBarLayout: void setWindowInsets(android.support.v4.view.WindowInsetsCompat)
+android.support.design.widget.AppBarLayout$Behavior$SavedState
+android.support.design.widget.AppBarLayout$Behavior$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.design.widget.CollapsingToolbarLayout: void setTitle(java.lang.CharSequence)
+android.support.design.widget.CollapsingToolbarLayout: java.lang.CharSequence getTitle()
+android.support.design.widget.CollapsingToolbarLayout: void setTitleEnabled(boolean)
+android.support.design.widget.CollapsingToolbarLayout: void setScrimsShown(boolean)
+android.support.design.widget.CollapsingToolbarLayout: void setScrimAlpha(int)
+android.support.design.widget.CollapsingToolbarLayout: void setContentScrim(android.graphics.drawable.Drawable)
+android.support.design.widget.CollapsingToolbarLayout: void setContentScrimColor(int)
+android.support.design.widget.CollapsingToolbarLayout: void setContentScrimResource(int)
+android.support.design.widget.CollapsingToolbarLayout: android.graphics.drawable.Drawable getContentScrim()
+android.support.design.widget.CollapsingToolbarLayout: void setStatusBarScrim(android.graphics.drawable.Drawable)
+android.support.design.widget.CollapsingToolbarLayout: void setStatusBarScrimColor(int)
+android.support.design.widget.CollapsingToolbarLayout: void setStatusBarScrimResource(int)
+android.support.design.widget.CollapsingToolbarLayout: android.graphics.drawable.Drawable getStatusBarScrim()
+android.support.design.widget.CollapsingToolbarLayout: void setCollapsedTitleTextAppearance(int)
+android.support.design.widget.CollapsingToolbarLayout: void setCollapsedTitleTextColor(int)
+android.support.design.widget.CollapsingToolbarLayout: void setCollapsedTitleGravity(int)
+android.support.design.widget.CollapsingToolbarLayout: int getCollapsedTitleGravity()
+android.support.design.widget.CollapsingToolbarLayout: void setExpandedTitleTextAppearance(int)
+android.support.design.widget.CollapsingToolbarLayout: void setExpandedTitleColor(int)
+android.support.design.widget.CollapsingToolbarLayout: void setExpandedTitleGravity(int)
+android.support.design.widget.CollapsingToolbarLayout: int getExpandedTitleGravity()
+android.support.design.widget.CollapsingToolbarLayout: void setCollapsedTitleTypeface(android.graphics.Typeface)
+android.support.design.widget.CollapsingToolbarLayout: android.graphics.Typeface getCollapsedTitleTypeface()
+android.support.design.widget.CollapsingToolbarLayout: void setExpandedTitleTypeface(android.graphics.Typeface)
+android.support.design.widget.CollapsingToolbarLayout: android.graphics.Typeface getExpandedTitleTypeface()
+android.support.design.widget.CollapsingToolbarLayout: int getScrimTriggerOffset()
+android.support.design.widget.CoordinatorLayout: void setOnHierarchyChangeListener(android.view.ViewGroup$OnHierarchyChangeListener)
+android.support.design.widget.CoordinatorLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.design.widget.CoordinatorLayout: android.graphics.drawable.Drawable getStatusBarBackground()
+android.support.design.widget.CoordinatorLayout: void setStatusBarBackgroundResource(int)
+android.support.design.widget.CoordinatorLayout: void setStatusBarBackgroundColor(int)
+android.support.design.widget.CoordinatorLayout: void setWindowInsets(android.support.v4.view.WindowInsetsCompat)
+android.support.design.widget.CoordinatorLayout: int getSuggestedMinimumWidth()
+android.support.design.widget.CoordinatorLayout: int getSuggestedMinimumHeight()
+android.support.design.widget.CoordinatorLayout: int getNestedScrollAxes()
+android.support.design.widget.CoordinatorLayout$SavedState
+android.support.design.widget.CoordinatorLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.design.widget.FloatingActionButton: void setRippleColor(int)
+android.support.design.widget.FloatingActionButton: android.content.res.ColorStateList getBackgroundTintList()
+android.support.design.widget.FloatingActionButton: void setBackgroundTintList(android.content.res.ColorStateList)
+android.support.design.widget.FloatingActionButton: android.graphics.PorterDuff$Mode getBackgroundTintMode()
+android.support.design.widget.FloatingActionButton: void setBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.design.widget.FloatingActionButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.design.widget.FloatingActionButton: int getSizeDimension()
+android.support.design.widget.NavigationView: void setNavigationItemSelectedListener(android.support.design.widget.NavigationView$OnNavigationItemSelectedListener)
+android.support.design.widget.NavigationView: android.view.Menu getMenu()
+android.support.design.widget.NavigationView: android.content.res.ColorStateList getItemIconTintList()
+android.support.design.widget.NavigationView: void setItemIconTintList(android.content.res.ColorStateList)
+android.support.design.widget.NavigationView: android.content.res.ColorStateList getItemTextColor()
+android.support.design.widget.NavigationView: void setItemTextColor(android.content.res.ColorStateList)
+android.support.design.widget.NavigationView: android.graphics.drawable.Drawable getItemBackground()
+android.support.design.widget.NavigationView: void setItemBackgroundResource(int)
+android.support.design.widget.NavigationView: void setItemBackground(android.graphics.drawable.Drawable)
+android.support.design.widget.NavigationView: void setCheckedItem(int)
+android.support.design.widget.NavigationView: void setItemTextAppearance(int)
+android.support.design.widget.NavigationView: android.view.MenuInflater getMenuInflater()
+android.support.design.widget.NavigationView$SavedState
+android.support.design.widget.NavigationView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.design.widget.Snackbar$SnackbarLayout
+android.support.design.widget.Snackbar$SnackbarLayout: Snackbar$SnackbarLayout(android.content.Context)
+android.support.design.widget.Snackbar$SnackbarLayout: Snackbar$SnackbarLayout(android.content.Context,android.util.AttributeSet)
+android.support.design.widget.Snackbar$SnackbarLayout: android.widget.TextView getMessageView()
+android.support.design.widget.Snackbar$SnackbarLayout: android.widget.Button getActionView()
+android.support.design.widget.Snackbar$SnackbarLayout: void setOnLayoutChangeListener(android.support.design.widget.Snackbar$SnackbarLayout$OnLayoutChangeListener)
+android.support.design.widget.Snackbar$SnackbarLayout: void setOnAttachStateChangeListener(android.support.design.widget.Snackbar$SnackbarLayout$OnAttachStateChangeListener)
+android.support.design.widget.TabLayout: void setSelectedTabIndicatorColor(int)
+android.support.design.widget.TabLayout: void setSelectedTabIndicatorHeight(int)
+android.support.design.widget.TabLayout: float getScrollPosition()
+android.support.design.widget.TabLayout: void setOnTabSelectedListener(android.support.design.widget.TabLayout$OnTabSelectedListener)
+android.support.design.widget.TabLayout: int getTabCount()
+android.support.design.widget.TabLayout: int getSelectedTabPosition()
+android.support.design.widget.TabLayout: void setTabMode(int)
+android.support.design.widget.TabLayout: int getTabMode()
+android.support.design.widget.TabLayout: void setTabGravity(int)
+android.support.design.widget.TabLayout: int getTabGravity()
+android.support.design.widget.TabLayout: void setTabTextColors(android.content.res.ColorStateList)
+android.support.design.widget.TabLayout: android.content.res.ColorStateList getTabTextColors()
+android.support.design.widget.TabLayout: void setupWithViewPager(android.support.v4.view.ViewPager)
+android.support.design.widget.TabLayout: void setTabsFromPagerAdapter(android.support.v4.view.PagerAdapter)
+android.support.design.widget.TabLayout: void setSelectedTabView(int)
+android.support.design.widget.TabLayout: int getDefaultHeight()
+android.support.design.widget.TabLayout: int getTabMinWidth()
+android.support.design.widget.TabLayout: int getTabMaxWidth()
+android.support.design.widget.TextInputLayout
+android.support.design.widget.TextInputLayout: TextInputLayout(android.content.Context)
+android.support.design.widget.TextInputLayout: TextInputLayout(android.content.Context,android.util.AttributeSet)
+android.support.design.widget.TextInputLayout: TextInputLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.design.widget.TextInputLayout: void setTypeface(android.graphics.Typeface)
+android.support.design.widget.TextInputLayout: android.graphics.Typeface getTypeface()
+android.support.design.widget.TextInputLayout: void setEditText(android.widget.EditText)
+android.support.design.widget.TextInputLayout: android.widget.EditText getEditText()
+android.support.design.widget.TextInputLayout: void setHint(java.lang.CharSequence)
+android.support.design.widget.TextInputLayout: java.lang.CharSequence getHint()
+android.support.design.widget.TextInputLayout: void setHintTextAppearance(int)
+android.support.design.widget.TextInputLayout: void setErrorEnabled(boolean)
+android.support.design.widget.TextInputLayout: void setError(java.lang.CharSequence)
+android.support.design.widget.TextInputLayout: void setCounterEnabled(boolean)
+android.support.design.widget.TextInputLayout: void setCounterMaxLength(int)
+android.support.design.widget.TextInputLayout: int getCounterMaxLength()
+android.support.design.widget.TextInputLayout: java.lang.CharSequence getError()
+android.support.design.widget.TextInputLayout: void setHintAnimationEnabled(boolean)
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.BaseFragmentActivityDonut: BaseFragmentActivityDonut()
+android.support.v4.app.BaseFragmentActivityHoneycomb: BaseFragmentActivityHoneycomb()
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$3
+android.support.v4.media.MediaBrowserCompat$MediaItem
+android.support.v4.media.MediaBrowserCompat$MediaItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaDescriptionCompat
+android.support.v4.media.MediaDescriptionCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$QueueItem
+android.support.v4.media.session.MediaSessionCompat$QueueItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.ParcelableVolumeInfo
+android.support.v4.media.session.ParcelableVolumeInfo: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat$CustomAction
+android.support.v4.media.session.PlaybackStateCompat$CustomAction: android.os.Parcelable$Creator CREATOR
+android.support.v4.os.ResultReceiver
+android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setDrawerElevation(float)
+android.support.v4.widget.DrawerLayout: float getDrawerElevation()
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: android.graphics.drawable.Drawable getStatusBarBackgroundDrawable()
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.NestedScrollView
+android.support.v4.widget.NestedScrollView: NestedScrollView(android.content.Context)
+android.support.v4.widget.NestedScrollView: NestedScrollView(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.NestedScrollView: NestedScrollView(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.NestedScrollView: void setNestedScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: int getNestedScrollAxes()
+android.support.v4.widget.NestedScrollView: float getTopFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: float getBottomFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: int getMaxScrollAmount()
+android.support.v4.widget.NestedScrollView: void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener)
+android.support.v4.widget.NestedScrollView: void setFillViewport(boolean)
+android.support.v4.widget.NestedScrollView: void setSmoothScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: float getVerticalScrollFactorCompat()
+android.support.v4.widget.NestedScrollView: int getScrollRange()
+android.support.v4.widget.NestedScrollView$SavedState
+android.support.v4.widget.NestedScrollView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.Space
+android.support.v4.widget.Space: Space(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.Space: Space(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.Space: Space(android.content.Context)
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeResource(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+android.support.v4.widget.SwipeRefreshLayout: int getProgressCircleDiameter()
+android.support.v4.widget.SwipeRefreshLayout: int getNestedScrollAxes()
+android.support.v4.widget.SwipeRefreshLayout: void setNestedScrollingEnabled(boolean)
+android.support.v7.app.AppCompatActivity: AppCompatActivity()
+android.support.v7.app.AppCompatActivity: void setContentView(android.view.View)
+android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState$SavedState
+android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.internal.view.menu.ActionMenuItemView
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context)
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.view.menu.ActionMenuItemView: android.support.v7.internal.view.menu.MenuItemImpl getItemData()
+android.support.v7.internal.view.menu.ActionMenuItemView: void setItemInvoker(android.support.v7.internal.view.menu.MenuBuilder$ItemInvoker)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setPopupCallback(android.support.v7.internal.view.menu.ActionMenuItemView$PopupCallback)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setCheckable(boolean)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setChecked(boolean)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setExpandedFormat(boolean)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setIcon(android.graphics.drawable.Drawable)
+android.support.v7.internal.view.menu.ActionMenuItemView: void setTitle(java.lang.CharSequence)
+android.support.v7.internal.view.menu.ExpandedMenuView
+android.support.v7.internal.view.menu.ExpandedMenuView: ExpandedMenuView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ExpandedMenuView: ExpandedMenuView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.view.menu.ExpandedMenuView: int getWindowAnimations()
+android.support.v7.internal.view.menu.ListMenuItemView
+android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ListMenuItemView: void setForceShowIcon(boolean)
+android.support.v7.internal.view.menu.ListMenuItemView: void setTitle(java.lang.CharSequence)
+android.support.v7.internal.view.menu.ListMenuItemView: android.support.v7.internal.view.menu.MenuItemImpl getItemData()
+android.support.v7.internal.view.menu.ListMenuItemView: void setCheckable(boolean)
+android.support.v7.internal.view.menu.ListMenuItemView: void setChecked(boolean)
+android.support.v7.internal.view.menu.ListMenuItemView: void setIcon(android.graphics.drawable.Drawable)
+android.support.v7.internal.view.menu.ListMenuItemView: android.view.LayoutInflater getInflater()
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context)
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.AbsActionBarView: void setContentHeight(int)
+android.support.v7.internal.widget.AbsActionBarView: int getContentHeight()
+android.support.v7.internal.widget.AbsActionBarView: int getAnimatedVisibility()
+android.support.v7.internal.widget.AbsActionBarView: void setVisibility(int)
+android.support.v7.internal.widget.ActionBarContainer
+android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context)
+android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarContainer: void setPrimaryBackground(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ActionBarContainer: void setStackedBackground(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ActionBarContainer: void setSplitBackground(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ActionBarContainer: void setVisibility(int)
+android.support.v7.internal.widget.ActionBarContainer: void setTransitioning(boolean)
+android.support.v7.internal.widget.ActionBarContainer: void setTabContainer(android.support.v7.internal.widget.ScrollingTabContainerView)
+android.support.v7.internal.widget.ActionBarContainer: android.view.View getTabContainer()
+android.support.v7.internal.widget.ActionBarContextView
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context)
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.ActionBarContextView: void setContentHeight(int)
+android.support.v7.internal.widget.ActionBarContextView: void setCustomView(android.view.View)
+android.support.v7.internal.widget.ActionBarContextView: void setTitle(java.lang.CharSequence)
+android.support.v7.internal.widget.ActionBarContextView: void setSubtitle(java.lang.CharSequence)
+android.support.v7.internal.widget.ActionBarContextView: java.lang.CharSequence getTitle()
+android.support.v7.internal.widget.ActionBarContextView: java.lang.CharSequence getSubtitle()
+android.support.v7.internal.widget.ActionBarContextView: void setTitleOptional(boolean)
+android.support.v7.internal.widget.ActionBarContextView: void setVisibility(int)
+android.support.v7.internal.widget.ActionBarContextView: int getAnimatedVisibility()
+android.support.v7.internal.widget.ActionBarContextView: int getContentHeight()
+android.support.v7.internal.widget.ActionBarOverlayLayout
+android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context)
+android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setActionBarVisibilityCallback(android.support.v7.internal.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setOverlayMode(boolean)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setHasNonEmbeddedTabs(boolean)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setShowingForActionMode(boolean)
+android.support.v7.internal.widget.ActionBarOverlayLayout: int getNestedScrollAxes()
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setHideOnContentScrollEnabled(boolean)
+android.support.v7.internal.widget.ActionBarOverlayLayout: int getActionBarHideOffset()
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setActionBarHideOffset(int)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setWindowCallback(android.view.Window$Callback)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setWindowTitle(java.lang.CharSequence)
+android.support.v7.internal.widget.ActionBarOverlayLayout: java.lang.CharSequence getTitle()
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setUiOptions(int)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setIcon(int)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setIcon(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ActionBarOverlayLayout: void setLogo(int)
+android.support.v7.internal.widget.ActivityChooserView: void setActivityChooserModel(android.support.v7.internal.widget.ActivityChooserModel)
+android.support.v7.internal.widget.ActivityChooserView: void setExpandActivityOverflowButtonDrawable(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ActivityChooserView: void setExpandActivityOverflowButtonContentDescription(int)
+android.support.v7.internal.widget.ActivityChooserView: void setProvider(android.support.v4.view.ActionProvider)
+android.support.v7.internal.widget.ActivityChooserView: android.support.v7.internal.widget.ActivityChooserModel getDataModel()
+android.support.v7.internal.widget.ActivityChooserView: void setOnDismissListener(android.widget.PopupWindow$OnDismissListener)
+android.support.v7.internal.widget.ActivityChooserView: void setInitialActivityCount(int)
+android.support.v7.internal.widget.ActivityChooserView: void setDefaultActionButtonContentDescription(int)
+android.support.v7.internal.widget.ActivityChooserView: android.support.v7.widget.ListPopupWindow getListPopupWindow()
+android.support.v7.internal.widget.ActivityChooserView$InnerLayout
+android.support.v7.internal.widget.ActivityChooserView$InnerLayout: ActivityChooserView$InnerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ButtonBarLayout
+android.support.v7.internal.widget.ButtonBarLayout: ButtonBarLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ButtonBarLayout: void setAllowStacking(boolean)
+android.support.v7.internal.widget.ButtonBarLayout: void setStacked(boolean)
+android.support.v7.internal.widget.ContentFrameLayout
+android.support.v7.internal.widget.ContentFrameLayout: ContentFrameLayout(android.content.Context)
+android.support.v7.internal.widget.ContentFrameLayout: ContentFrameLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ContentFrameLayout: ContentFrameLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.ContentFrameLayout: void setAttachListener(android.support.v7.internal.widget.ContentFrameLayout$OnAttachListener)
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getMinWidthMajor()
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getMinWidthMinor()
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getFixedWidthMajor()
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getFixedWidthMinor()
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getFixedHeightMajor()
+android.support.v7.internal.widget.ContentFrameLayout: android.util.TypedValue getFixedHeightMinor()
+android.support.v7.internal.widget.DialogTitle
+android.support.v7.internal.widget.DialogTitle: DialogTitle(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.DialogTitle: DialogTitle(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.DialogTitle: DialogTitle(android.content.Context)
+android.support.v7.internal.widget.FitWindowsFrameLayout
+android.support.v7.internal.widget.FitWindowsFrameLayout: FitWindowsFrameLayout(android.content.Context)
+android.support.v7.internal.widget.FitWindowsFrameLayout: FitWindowsFrameLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.FitWindowsFrameLayout: void setOnFitSystemWindowsListener(android.support.v7.internal.widget.FitWindowsViewGroup$OnFitSystemWindowsListener)
+android.support.v7.internal.widget.FitWindowsLinearLayout
+android.support.v7.internal.widget.FitWindowsLinearLayout: FitWindowsLinearLayout(android.content.Context)
+android.support.v7.internal.widget.FitWindowsLinearLayout: FitWindowsLinearLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.FitWindowsLinearLayout: void setOnFitSystemWindowsListener(android.support.v7.internal.widget.FitWindowsViewGroup$OnFitSystemWindowsListener)
+android.support.v7.internal.widget.ListViewCompat: void setSelector(android.graphics.drawable.Drawable)
+android.support.v7.internal.widget.ListViewCompat: void setSelectorEnabled(boolean)
+android.support.v7.internal.widget.ScrollingTabContainerView: void setAllowCollapse(boolean)
+android.support.v7.internal.widget.ScrollingTabContainerView: void setTabSelected(int)
+android.support.v7.internal.widget.ScrollingTabContainerView: void setContentHeight(int)
+android.support.v7.internal.widget.ViewStubCompat
+android.support.v7.internal.widget.ViewStubCompat: ViewStubCompat(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ViewStubCompat: ViewStubCompat(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.ViewStubCompat: int getInflatedId()
+android.support.v7.internal.widget.ViewStubCompat: void setInflatedId(int)
+android.support.v7.internal.widget.ViewStubCompat: int getLayoutResource()
+android.support.v7.internal.widget.ViewStubCompat: void setLayoutResource(int)
+android.support.v7.internal.widget.ViewStubCompat: void setLayoutInflater(android.view.LayoutInflater)
+android.support.v7.internal.widget.ViewStubCompat: android.view.LayoutInflater getLayoutInflater()
+android.support.v7.internal.widget.ViewStubCompat: void setVisibility(int)
+android.support.v7.internal.widget.ViewStubCompat: void setOnInflateListener(android.support.v7.internal.widget.ViewStubCompat$OnInflateListener)
+android.support.v7.widget.ActionMenuPresenter$SavedState
+android.support.v7.widget.ActionMenuPresenter$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.widget.ActionMenuView
+android.support.v7.widget.ActionMenuView: ActionMenuView(android.content.Context)
+android.support.v7.widget.ActionMenuView: ActionMenuView(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.ActionMenuView: void setPopupTheme(int)
+android.support.v7.widget.ActionMenuView: int getPopupTheme()
+android.support.v7.widget.ActionMenuView: void setPresenter(android.support.v7.widget.ActionMenuPresenter)
+android.support.v7.widget.ActionMenuView: void setOnMenuItemClickListener(android.support.v7.widget.ActionMenuView$OnMenuItemClickListener)
+android.support.v7.widget.ActionMenuView: void setOverflowIcon(android.graphics.drawable.Drawable)
+android.support.v7.widget.ActionMenuView: android.graphics.drawable.Drawable getOverflowIcon()
+android.support.v7.widget.ActionMenuView: void setOverflowReserved(boolean)
+android.support.v7.widget.ActionMenuView: int getWindowAnimations()
+android.support.v7.widget.ActionMenuView: android.view.Menu getMenu()
+android.support.v7.widget.ActionMenuView: void setExpandedActionViewsExclusive(boolean)
+android.support.v7.widget.AppCompatAutoCompleteTextView: AppCompatAutoCompleteTextView(android.content.Context)
+android.support.v7.widget.AppCompatAutoCompleteTextView: AppCompatAutoCompleteTextView(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.AppCompatAutoCompleteTextView: AppCompatAutoCompleteTextView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.AppCompatAutoCompleteTextView: void setDropDownBackgroundResource(int)
+android.support.v7.widget.AppCompatAutoCompleteTextView: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatAutoCompleteTextView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatAutoCompleteTextView: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatAutoCompleteTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatAutoCompleteTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatAutoCompleteTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatButton: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatButton: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatButton: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatButton: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatButton: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatButton: void setSupportAllCaps(boolean)
+android.support.v7.widget.AppCompatCheckBox: void setButtonDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatCheckBox: void setButtonDrawable(int)
+android.support.v7.widget.AppCompatCheckBox: int getCompoundPaddingLeft()
+android.support.v7.widget.AppCompatCheckBox: void setSupportButtonTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatCheckBox: android.content.res.ColorStateList getSupportButtonTintList()
+android.support.v7.widget.AppCompatCheckBox: void setSupportButtonTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatCheckBox: android.graphics.PorterDuff$Mode getSupportButtonTintMode()
+android.support.v7.widget.AppCompatCheckedTextView: void setCheckMarkDrawable(int)
+android.support.v7.widget.AppCompatEditText
+android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context)
+android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.AppCompatEditText: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatEditText: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatEditText: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatEditText: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatEditText: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatEditText: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatImageButton: void setImageResource(int)
+android.support.v7.widget.AppCompatImageButton: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatImageButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatImageButton: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatImageButton: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatImageButton: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatImageButton: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatImageView: void setImageResource(int)
+android.support.v7.widget.AppCompatImageView: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatImageView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatImageView: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatImageView: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatImageView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatImageView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setDropDownBackgroundResource(int)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(int)
+android.support.v7.widget.AppCompatRadioButton: int getCompoundPaddingLeft()
+android.support.v7.widget.AppCompatRadioButton: void setSupportButtonTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatRadioButton: android.content.res.ColorStateList getSupportButtonTintList()
+android.support.v7.widget.AppCompatRadioButton: void setSupportButtonTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatRadioButton: android.graphics.PorterDuff$Mode getSupportButtonTintMode()
+android.support.v7.widget.AppCompatSpinner: android.content.Context getPopupContext()
+android.support.v7.widget.AppCompatSpinner: void setPopupBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatSpinner: void setPopupBackgroundResource(int)
+android.support.v7.widget.AppCompatSpinner: android.graphics.drawable.Drawable getPopupBackground()
+android.support.v7.widget.AppCompatSpinner: void setDropDownVerticalOffset(int)
+android.support.v7.widget.AppCompatSpinner: int getDropDownVerticalOffset()
+android.support.v7.widget.AppCompatSpinner: void setDropDownHorizontalOffset(int)
+android.support.v7.widget.AppCompatSpinner: int getDropDownHorizontalOffset()
+android.support.v7.widget.AppCompatSpinner: void setDropDownWidth(int)
+android.support.v7.widget.AppCompatSpinner: int getDropDownWidth()
+android.support.v7.widget.AppCompatSpinner: void setAdapter(android.widget.SpinnerAdapter)
+android.support.v7.widget.AppCompatSpinner: void setPrompt(java.lang.CharSequence)
+android.support.v7.widget.AppCompatSpinner: java.lang.CharSequence getPrompt()
+android.support.v7.widget.AppCompatSpinner: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatSpinner: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatSpinner: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatSpinner: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatSpinner: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatSpinner: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatSpinner: void setAdapter(android.widget.Adapter)
+android.support.v7.widget.AppCompatTextView: AppCompatTextView(android.content.Context)
+android.support.v7.widget.AppCompatTextView: AppCompatTextView(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.AppCompatTextView: AppCompatTextView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.AppCompatTextView: void setBackgroundResource(int)
+android.support.v7.widget.AppCompatTextView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.AppCompatTextView: void setSupportBackgroundTintList(android.content.res.ColorStateList)
+android.support.v7.widget.AppCompatTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
+android.support.v7.widget.AppCompatTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
+android.support.v7.widget.AppCompatTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.CardView
+android.support.v7.widget.CardView: CardView(android.content.Context)
+android.support.v7.widget.CardView: CardView(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.CardView: CardView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.CardView: boolean getUseCompatPadding()
+android.support.v7.widget.CardView: void setUseCompatPadding(boolean)
+android.support.v7.widget.CardView: void setCardBackgroundColor(int)
+android.support.v7.widget.CardView: int getContentPaddingLeft()
+android.support.v7.widget.CardView: int getContentPaddingRight()
+android.support.v7.widget.CardView: int getContentPaddingTop()
+android.support.v7.widget.CardView: int getContentPaddingBottom()
+android.support.v7.widget.CardView: void setRadius(float)
+android.support.v7.widget.CardView: float getRadius()
+android.support.v7.widget.CardView: void setCardElevation(float)
+android.support.v7.widget.CardView: float getCardElevation()
+android.support.v7.widget.CardView: void setMaxCardElevation(float)
+android.support.v7.widget.CardView: float getMaxCardElevation()
+android.support.v7.widget.CardView: boolean getPreventCornerOverlap()
+android.support.v7.widget.CardView: void setPreventCornerOverlap(boolean)
+android.support.v7.widget.LinearLayoutCompat: LinearLayoutCompat(android.content.Context)
+android.support.v7.widget.LinearLayoutCompat: LinearLayoutCompat(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.LinearLayoutCompat: LinearLayoutCompat(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.LinearLayoutCompat: void setShowDividers(int)
+android.support.v7.widget.LinearLayoutCompat: int getShowDividers()
+android.support.v7.widget.LinearLayoutCompat: android.graphics.drawable.Drawable getDividerDrawable()
+android.support.v7.widget.LinearLayoutCompat: void setDividerDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.LinearLayoutCompat: void setDividerPadding(int)
+android.support.v7.widget.LinearLayoutCompat: int getDividerPadding()
+android.support.v7.widget.LinearLayoutCompat: int getDividerWidth()
+android.support.v7.widget.LinearLayoutCompat: void setBaselineAligned(boolean)
+android.support.v7.widget.LinearLayoutCompat: void setMeasureWithLargestChildEnabled(boolean)
+android.support.v7.widget.LinearLayoutCompat: int getBaseline()
+android.support.v7.widget.LinearLayoutCompat: int getBaselineAlignedChildIndex()
+android.support.v7.widget.LinearLayoutCompat: void setBaselineAlignedChildIndex(int)
+android.support.v7.widget.LinearLayoutCompat: int getVirtualChildCount()
+android.support.v7.widget.LinearLayoutCompat: float getWeightSum()
+android.support.v7.widget.LinearLayoutCompat: void setWeightSum(float)
+android.support.v7.widget.LinearLayoutCompat: void setOrientation(int)
+android.support.v7.widget.LinearLayoutCompat: int getOrientation()
+android.support.v7.widget.LinearLayoutCompat: void setGravity(int)
+android.support.v7.widget.LinearLayoutCompat: void setHorizontalGravity(int)
+android.support.v7.widget.LinearLayoutCompat: void setVerticalGravity(int)
+android.support.v7.widget.LinearLayoutManager$SavedState
+android.support.v7.widget.LinearLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.widget.RecyclerView
+android.support.v7.widget.RecyclerView: RecyclerView(android.content.Context)
+android.support.v7.widget.RecyclerView: RecyclerView(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.RecyclerView: RecyclerView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerViewAccessibilityDelegate getCompatAccessibilityDelegate()
+android.support.v7.widget.RecyclerView: void setAccessibilityDelegateCompat(android.support.v7.widget.RecyclerViewAccessibilityDelegate)
+android.support.v7.widget.RecyclerView: void setHasFixedSize(boolean)
+android.support.v7.widget.RecyclerView: void setClipToPadding(boolean)
+android.support.v7.widget.RecyclerView: void setScrollingTouchSlop(int)
+android.support.v7.widget.RecyclerView: void setAdapter(android.support.v7.widget.RecyclerView$Adapter)
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$Adapter getAdapter()
+android.support.v7.widget.RecyclerView: void setRecyclerListener(android.support.v7.widget.RecyclerView$RecyclerListener)
+android.support.v7.widget.RecyclerView: int getBaseline()
+android.support.v7.widget.RecyclerView: void setLayoutManager(android.support.v7.widget.RecyclerView$LayoutManager)
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$LayoutManager getLayoutManager()
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$RecycledViewPool getRecycledViewPool()
+android.support.v7.widget.RecyclerView: void setRecycledViewPool(android.support.v7.widget.RecyclerView$RecycledViewPool)
+android.support.v7.widget.RecyclerView: void setViewCacheExtension(android.support.v7.widget.RecyclerView$ViewCacheExtension)
+android.support.v7.widget.RecyclerView: void setItemViewCacheSize(int)
+android.support.v7.widget.RecyclerView: int getScrollState()
+android.support.v7.widget.RecyclerView: void setScrollState(int)
+android.support.v7.widget.RecyclerView: void setChildDrawingOrderCallback(android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback)
+android.support.v7.widget.RecyclerView: void setOnScrollListener(android.support.v7.widget.RecyclerView$OnScrollListener)
+android.support.v7.widget.RecyclerView: void setLayoutFrozen(boolean)
+android.support.v7.widget.RecyclerView: int getMinFlingVelocity()
+android.support.v7.widget.RecyclerView: int getMaxFlingVelocity()
+android.support.v7.widget.RecyclerView: float getScrollFactor()
+android.support.v7.widget.RecyclerView: void setItemAnimator(android.support.v7.widget.RecyclerView$ItemAnimator)
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$ItemAnimator getItemAnimator()
+android.support.v7.widget.RecyclerView: void setNestedScrollingEnabled(boolean)
+android.support.v7.widget.RecyclerView$SavedState
+android.support.v7.widget.RecyclerView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.widget.SearchView: int getSuggestionRowLayout()
+android.support.v7.widget.SearchView: int getSuggestionCommitIconResId()
+android.support.v7.widget.SearchView: void setSearchableInfo(android.app.SearchableInfo)
+android.support.v7.widget.SearchView: void setAppSearchData(android.os.Bundle)
+android.support.v7.widget.SearchView: void setImeOptions(int)
+android.support.v7.widget.SearchView: int getImeOptions()
+android.support.v7.widget.SearchView: void setInputType(int)
+android.support.v7.widget.SearchView: int getInputType()
+android.support.v7.widget.SearchView: void setOnQueryTextListener(android.support.v7.widget.SearchView$OnQueryTextListener)
+android.support.v7.widget.SearchView: void setOnCloseListener(android.support.v7.widget.SearchView$OnCloseListener)
+android.support.v7.widget.SearchView: void setOnQueryTextFocusChangeListener(android.view.View$OnFocusChangeListener)
+android.support.v7.widget.SearchView: void setOnSuggestionListener(android.support.v7.widget.SearchView$OnSuggestionListener)
+android.support.v7.widget.SearchView: void setOnSearchClickListener(android.view.View$OnClickListener)
+android.support.v7.widget.SearchView: java.lang.CharSequence getQuery()
+android.support.v7.widget.SearchView: void setQueryHint(java.lang.CharSequence)
+android.support.v7.widget.SearchView: java.lang.CharSequence getQueryHint()
+android.support.v7.widget.SearchView: void setIconifiedByDefault(boolean)
+android.support.v7.widget.SearchView: void setIconified(boolean)
+android.support.v7.widget.SearchView: void setSubmitButtonEnabled(boolean)
+android.support.v7.widget.SearchView: void setQueryRefinementEnabled(boolean)
+android.support.v7.widget.SearchView: void setSuggestionsAdapter(android.support.v4.widget.CursorAdapter)
+android.support.v7.widget.SearchView: android.support.v4.widget.CursorAdapter getSuggestionsAdapter()
+android.support.v7.widget.SearchView: void setMaxWidth(int)
+android.support.v7.widget.SearchView: int getMaxWidth()
+android.support.v7.widget.SearchView: int getPreferredWidth()
+android.support.v7.widget.SearchView: void setImeVisibility(boolean)
+android.support.v7.widget.SearchView: void setQuery(java.lang.CharSequence)
+android.support.v7.widget.SearchView$SearchAutoComplete
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context)
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.SearchView$SearchAutoComplete: void setSearchView(android.support.v7.widget.SearchView)
+android.support.v7.widget.SearchView$SearchAutoComplete: void setThreshold(int)
+android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem
+android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem: android.os.Parcelable$Creator CREATOR
+android.support.v7.widget.StaggeredGridLayoutManager$SavedState
+android.support.v7.widget.StaggeredGridLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.widget.SwitchCompat: void setSwitchTypeface(android.graphics.Typeface)
+android.support.v7.widget.SwitchCompat: void setSwitchPadding(int)
+android.support.v7.widget.SwitchCompat: int getSwitchPadding()
+android.support.v7.widget.SwitchCompat: void setSwitchMinWidth(int)
+android.support.v7.widget.SwitchCompat: int getSwitchMinWidth()
+android.support.v7.widget.SwitchCompat: void setThumbTextPadding(int)
+android.support.v7.widget.SwitchCompat: int getThumbTextPadding()
+android.support.v7.widget.SwitchCompat: void setTrackDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.SwitchCompat: void setTrackResource(int)
+android.support.v7.widget.SwitchCompat: android.graphics.drawable.Drawable getTrackDrawable()
+android.support.v7.widget.SwitchCompat: void setThumbDrawable(android.graphics.drawable.Drawable)
+android.support.v7.widget.SwitchCompat: void setThumbResource(int)
+android.support.v7.widget.SwitchCompat: android.graphics.drawable.Drawable getThumbDrawable()
+android.support.v7.widget.SwitchCompat: void setSplitTrack(boolean)
+android.support.v7.widget.SwitchCompat: boolean getSplitTrack()
+android.support.v7.widget.SwitchCompat: java.lang.CharSequence getTextOn()
+android.support.v7.widget.SwitchCompat: void setTextOn(java.lang.CharSequence)
+android.support.v7.widget.SwitchCompat: java.lang.CharSequence getTextOff()
+android.support.v7.widget.SwitchCompat: void setTextOff(java.lang.CharSequence)
+android.support.v7.widget.SwitchCompat: void setShowText(boolean)
+android.support.v7.widget.SwitchCompat: boolean getShowText()
+android.support.v7.widget.SwitchCompat: boolean getTargetCheckedState()
+android.support.v7.widget.SwitchCompat: void setThumbPosition(float)
+android.support.v7.widget.SwitchCompat: void setChecked(boolean)
+android.support.v7.widget.SwitchCompat: int getCompoundPaddingLeft()
+android.support.v7.widget.SwitchCompat: int getCompoundPaddingRight()
+android.support.v7.widget.SwitchCompat: int getThumbOffset()
+android.support.v7.widget.SwitchCompat: int getThumbScrollRange()
+android.support.v7.widget.Toolbar
+android.support.v7.widget.Toolbar: Toolbar(android.content.Context)
+android.support.v7.widget.Toolbar: Toolbar(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.Toolbar: Toolbar(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.Toolbar: void setPopupTheme(int)
+android.support.v7.widget.Toolbar: int getPopupTheme()
+android.support.v7.widget.Toolbar: void setLogo(int)
+android.support.v7.widget.Toolbar: void setLogo(android.graphics.drawable.Drawable)
+android.support.v7.widget.Toolbar: android.graphics.drawable.Drawable getLogo()
+android.support.v7.widget.Toolbar: void setLogoDescription(int)
+android.support.v7.widget.Toolbar: void setLogoDescription(java.lang.CharSequence)
+android.support.v7.widget.Toolbar: java.lang.CharSequence getLogoDescription()
+android.support.v7.widget.Toolbar: java.lang.CharSequence getTitle()
+android.support.v7.widget.Toolbar: void setTitle(int)
+android.support.v7.widget.Toolbar: void setTitle(java.lang.CharSequence)
+android.support.v7.widget.Toolbar: java.lang.CharSequence getSubtitle()
+android.support.v7.widget.Toolbar: void setSubtitle(int)
+android.support.v7.widget.Toolbar: void setSubtitle(java.lang.CharSequence)
+android.support.v7.widget.Toolbar: void setTitleTextColor(int)
+android.support.v7.widget.Toolbar: void setSubtitleTextColor(int)
+android.support.v7.widget.Toolbar: java.lang.CharSequence getNavigationContentDescription()
+android.support.v7.widget.Toolbar: void setNavigationContentDescription(int)
+android.support.v7.widget.Toolbar: void setNavigationContentDescription(java.lang.CharSequence)
+android.support.v7.widget.Toolbar: void setNavigationIcon(int)
+android.support.v7.widget.Toolbar: void setNavigationIcon(android.graphics.drawable.Drawable)
+android.support.v7.widget.Toolbar: android.graphics.drawable.Drawable getNavigationIcon()
+android.support.v7.widget.Toolbar: void setNavigationOnClickListener(android.view.View$OnClickListener)
+android.support.v7.widget.Toolbar: android.view.Menu getMenu()
+android.support.v7.widget.Toolbar: void setOverflowIcon(android.graphics.drawable.Drawable)
+android.support.v7.widget.Toolbar: android.graphics.drawable.Drawable getOverflowIcon()
+android.support.v7.widget.Toolbar: android.view.MenuInflater getMenuInflater()
+android.support.v7.widget.Toolbar: void setOnMenuItemClickListener(android.support.v7.widget.Toolbar$OnMenuItemClickListener)
+android.support.v7.widget.Toolbar: int getContentInsetStart()
+android.support.v7.widget.Toolbar: int getContentInsetEnd()
+android.support.v7.widget.Toolbar: int getContentInsetLeft()
+android.support.v7.widget.Toolbar: int getContentInsetRight()
+android.support.v7.widget.Toolbar: android.support.v7.internal.widget.DecorToolbar getWrapper()
+android.support.v7.widget.Toolbar: void setCollapsible(boolean)
+android.support.v7.widget.Toolbar$SavedState
+android.support.v7.widget.Toolbar$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.perrier1034.post_it_note.App
+com.android.perrier1034.post_it_note.App: App()
+com.android.perrier1034.post_it_note.App$: com.android.perrier1034.post_it_note.App$ MODULE$
+com.android.perrier1034.post_it_note.App$Cache_Floating$: com.android.perrier1034.post_it_note.App$Cache_Floating$ MODULE$
+com.android.perrier1034.post_it_note.App$Cache_PSA$: com.android.perrier1034.post_it_note.App$Cache_PSA$ MODULE$
+com.android.perrier1034.post_it_note.Background$: com.android.perrier1034.post_it_note.Background$ MODULE$
+com.android.perrier1034.post_it_note.Constants$: com.android.perrier1034.post_it_note.Constants$ MODULE$
+com.android.perrier1034.post_it_note.EdamService$: com.android.perrier1034.post_it_note.EdamService$ MODULE$
+com.android.perrier1034.post_it_note.Foreground$: com.android.perrier1034.post_it_note.Foreground$ MODULE$
+com.android.perrier1034.post_it_note.R$anim: int slide_down
+com.android.perrier1034.post_it_note.R$anim: int slide_up
+com.android.perrier1034.post_it_note.R$array: int colors
+com.android.perrier1034.post_it_note.R$array: int textsize_entries
+com.android.perrier1034.post_it_note.R$array: int textsize_entryvalues
+com.android.perrier1034.post_it_note.R$attr: int fab_addButtonColorNormal
+com.android.perrier1034.post_it_note.R$attr: int fab_addButtonColorPressed
+com.android.perrier1034.post_it_note.R$attr: int fab_addButtonPlusIconColor
+com.android.perrier1034.post_it_note.R$attr: int fab_colorNormal
+com.android.perrier1034.post_it_note.R$attr: int fab_colorPressed
+com.android.perrier1034.post_it_note.R$attr: int fab_expandDirection
+com.android.perrier1034.post_it_note.R$attr: int fab_icon
+com.android.perrier1034.post_it_note.R$attr: int fab_labelStyle
+com.android.perrier1034.post_it_note.R$attr: int fab_plusIconColor
+com.android.perrier1034.post_it_note.R$attr: int fab_size
+com.android.perrier1034.post_it_note.R$attr: int fab_title
+com.android.perrier1034.post_it_note.R$bool: int translucentNavBar
+com.android.perrier1034.post_it_note.R$color: int bg_compose
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_dragging_active_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_dragging_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_expanded_pressed_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_expanded_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_normal_pressed_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_normal_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_swiping_active_state
+com.android.perrier1034.post_it_note.R$color: int bg_group_item_swiping_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_dragging_active_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_dragging_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_normal_pressed_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_normal_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_swiping_active_state
+com.android.perrier1034.post_it_note.R$color: int bg_item_swiping_state
+com.android.perrier1034.post_it_note.R$color: int bg_swipe_group_item_left
+com.android.perrier1034.post_it_note.R$color: int bg_swipe_group_item_right
+com.android.perrier1034.post_it_note.R$color: int bg_swipe_item_left
+com.android.perrier1034.post_it_note.R$color: int bg_swipe_item_neutral
+com.android.perrier1034.post_it_note.R$color: int bg_swipe_item_right
+com.android.perrier1034.post_it_note.R$color: int colorPrimary
+com.android.perrier1034.post_it_note.R$color: int colorPrimaryDark
+com.android.perrier1034.post_it_note.R$color: int pressed_ics_blue
+com.android.perrier1034.post_it_note.R$color: int pressed_red
+com.android.perrier1034.post_it_note.R$color: int snackbar_action_color_done
+com.android.perrier1034.post_it_note.R$dimen: int activity_horizontal_margin
+com.android.perrier1034.post_it_note.R$dimen: int activity_vertical_margin
+com.android.perrier1034.post_it_note.R$dimen: int card_insets
+com.android.perrier1034.post_it_note.R$dimen: int fab_actions_spacing
+com.android.perrier1034.post_it_note.R$dimen: int fab_icon_size
+com.android.perrier1034.post_it_note.R$dimen: int fab_labels_margin
+com.android.perrier1034.post_it_note.R$dimen: int fab_plus_icon_size
+com.android.perrier1034.post_it_note.R$dimen: int fab_plus_icon_stroke
+com.android.perrier1034.post_it_note.R$dimen: int fab_shadow_offset
+com.android.perrier1034.post_it_note.R$dimen: int fab_shadow_radius
+com.android.perrier1034.post_it_note.R$dimen: int fab_size_mini
+com.android.perrier1034.post_it_note.R$dimen: int fab_size_normal
+com.android.perrier1034.post_it_note.R$dimen: int fab_stroke_width
+com.android.perrier1034.post_it_note.R$dimen: int list_item_height
+com.android.perrier1034.post_it_note.R$dimen: int list_text_size
+com.android.perrier1034.post_it_note.R$dimen: int navigation_drawer_width
+com.android.perrier1034.post_it_note.R$dimen: int text_size_large
+com.android.perrier1034.post_it_note.R$dimen: int text_size_medium
+com.android.perrier1034.post_it_note.R$dimen: int text_size_small
+com.android.perrier1034.post_it_note.R$dimen: int text_size_very_large
+com.android.perrier1034.post_it_note.R$dimen: int text_size_very_small
+com.android.perrier1034.post_it_note.R$drawable: int bg_checkable_layout
+com.android.perrier1034.post_it_note.R$drawable: int bg_item_dragging_active_state
+com.android.perrier1034.post_it_note.R$drawable: int bg_item_dragging_state
+com.android.perrier1034.post_it_note.R$drawable: int bg_item_normal_state
+com.android.perrier1034.post_it_note.R$drawable: int bg_item_swiping_active_state
+com.android.perrier1034.post_it_note.R$drawable: int bg_item_swiping_state
+com.android.perrier1034.post_it_note.R$drawable: int bg_swipe_item_left
+com.android.perrier1034.post_it_note.R$drawable: int bg_swipe_item_neutral
+com.android.perrier1034.post_it_note.R$drawable: int bg_swipe_item_right
+com.android.perrier1034.post_it_note.R$drawable: int circle
+com.android.perrier1034.post_it_note.R$drawable: int compose_bg
+com.android.perrier1034.post_it_note.R$drawable: int drawer_shadow_9
+com.android.perrier1034.post_it_note.R$drawable: int edam
+com.android.perrier1034.post_it_note.R$drawable: int edam_s
+com.android.perrier1034.post_it_note.R$drawable: int fab_bg_mini
+com.android.perrier1034.post_it_note.R$drawable: int fab_bg_normal
+com.android.perrier1034.post_it_note.R$drawable: int fab_label_background
+com.android.perrier1034.post_it_note.R$drawable: int ic_512
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_action_done
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_add_alarm
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_alarm
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_alarm_add
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_alarm_off
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_attach_image
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_add_holo_light
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_add_toolbar
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_copy
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_create
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_discard
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_new
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_content_remove
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_delete
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_highlight_remove
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_list_add
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_note_add
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_notes_transfer
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_order_create
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_order_update
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_popup_menu
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_resurrect
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_search
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_select_all
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_send
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_setting_page
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_settings
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_social_share
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_tabs
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_toolbar_delete
+com.android.perrier1034.post_it_note.R$drawable: int ic_action_view_grid
+com.android.perrier1034.post_it_note.R$drawable: int ic_alerts_and_states_add_alarm
+com.android.perrier1034.post_it_note.R$drawable: int ic_check
+com.android.perrier1034.post_it_note.R$drawable: int ic_content_add
+com.android.perrier1034.post_it_note.R$drawable: int ic_dd_handle
+com.android.perrier1034.post_it_note.R$drawable: int ic_drawer
+com.android.perrier1034.post_it_note.R$drawable: int ic_launcher
+com.android.perrier1034.post_it_note.R$drawable: int ic_material_drag_handle_dark
+com.android.perrier1034.post_it_note.R$drawable: int ic_material_list_dark
+com.android.perrier1034.post_it_note.R$drawable: int ic_navigation_check
+com.android.perrier1034.post_it_note.R$drawable: int ic_popup_copy
+com.android.perrier1034.post_it_note.R$drawable: int ic_popup_discard
+com.android.perrier1034.post_it_note.R$drawable: int ic_social_send_now
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z1_9
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z1_mdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z1_xhdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z1_xxhdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z1_xxxhdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z3_9
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z3_mdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z3_xhdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z3_xxhdpi
+com.android.perrier1034.post_it_note.R$drawable: int material_shadow_z3_xxxhdpi
+com.android.perrier1034.post_it_note.R$drawable: int notes_sharing
+com.android.perrier1034.post_it_note.R$drawable: int pressed_selector_dd
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_arrow_down
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_arrow_up
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_bottom_frame
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_disambig_bottom_bg
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_disambig_divider
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_drop_shadow
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_photo_frame
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_background
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_btn
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_btn_normal
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_btn_on
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_btn_pressed
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_btn_selected
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_grip_left
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_slider_grip_right
+com.android.perrier1034.post_it_note.R$drawable: int quickcontact_top_frame
+com.android.perrier1034.post_it_note.R$drawable: int sym_action_add
+com.android.perrier1034.post_it_note.R$drawable: int sym_action_map
+com.android.perrier1034.post_it_note.R$drawable: int toolbar_dropshadow
+com.android.perrier1034.post_it_note.R$id: int action_delete_notes
+com.android.perrier1034.post_it_note.R$id: int action_destroy_notes
+com.android.perrier1034.post_it_note.R$id: int action_export_evernote
+com.android.perrier1034.post_it_note.R$id: int action_resurrect_notes
+com.android.perrier1034.post_it_note.R$id: int action_select_all
+com.android.perrier1034.post_it_note.R$id: int action_settings
+com.android.perrier1034.post_it_note.R$id: int add_tab
+com.android.perrier1034.post_it_note.R$id: int calendarView
+com.android.perrier1034.post_it_note.R$id: int check_list_handle
+com.android.perrier1034.post_it_note.R$id: int checkbox_check_list
+com.android.perrier1034.post_it_note.R$id: int clean_rubbish
+com.android.perrier1034.post_it_note.R$id: int color_circle
+com.android.perrier1034.post_it_note.R$id: int container
+com.android.perrier1034.post_it_note.R$id: int container_of_fragments
+com.android.perrier1034.post_it_note.R$id: int dd_title
+com.android.perrier1034.post_it_note.R$id: int down
+com.android.perrier1034.post_it_note.R$id: int drawer_content
+com.android.perrier1034.post_it_note.R$id: int drawer_layout
+com.android.perrier1034.post_it_note.R$id: int drawer_list
+com.android.perrier1034.post_it_note.R$id: int drawer_row_clickable_icon
+com.android.perrier1034.post_it_note.R$id: int drawer_row_clickable_label
+com.android.perrier1034.post_it_note.R$id: int drawer_row_section_label
+com.android.perrier1034.post_it_note.R$id: int edit_text
+com.android.perrier1034.post_it_note.R$id: int f_add_list_item
+com.android.perrier1034.post_it_note.R$id: int f_alarm_clear
+com.android.perrier1034.post_it_note.R$id: int f_alarm_set
+com.android.perrier1034.post_it_note.R$id: int f_attach_image
+com.android.perrier1034.post_it_note.R$id: int f_count
+com.android.perrier1034.post_it_note.R$id: int f_editable_title
+com.android.perrier1034.post_it_note.R$id: int f_export_evernote
+com.android.perrier1034.post_it_note.R$id: int f_note_main_edittext
+com.android.perrier1034.post_it_note.R$id: int f_recycler_view_wrapper
+com.android.perrier1034.post_it_note.R$id: int f_share
+com.android.perrier1034.post_it_note.R$id: int fab_expand_menu_button
+com.android.perrier1034.post_it_note.R$id: int fab_label
+com.android.perrier1034.post_it_note.R$id: int fab_new_list
+com.android.perrier1034.post_it_note.R$id: int fab_new_note
+com.android.perrier1034.post_it_note.R$id: int fam
+com.android.perrier1034.post_it_note.R$id: int grid
+com.android.perrier1034.post_it_note.R$id: int horizontal_scroll
+com.android.perrier1034.post_it_note.R$id: int ic_action_notes_transfer
+com.android.perrier1034.post_it_note.R$id: int im_container
+com.android.perrier1034.post_it_note.R$id: int left
+com.android.perrier1034.post_it_note.R$id: int linearLayout1
+com.android.perrier1034.post_it_note.R$id: int linearLayout_ex
+com.android.perrier1034.post_it_note.R$id: int main_container
+com.android.perrier1034.post_it_note.R$id: int main_list
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note0
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note1
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note2
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note3
+com.android.perrier1034.post_it_note.R$id: int main_text_row_note4
+com.android.perrier1034.post_it_note.R$id: int menu_search
+com.android.perrier1034.post_it_note.R$id: int mini
+com.android.perrier1034.post_it_note.R$id: int normal
+com.android.perrier1034.post_it_note.R$id: int note_root
+com.android.perrier1034.post_it_note.R$id: int pager_main
+com.android.perrier1034.post_it_note.R$id: int picked
+com.android.perrier1034.post_it_note.R$id: int popup_capture_image
+com.android.perrier1034.post_it_note.R$id: int popup_delete
+com.android.perrier1034.post_it_note.R$id: int popup_rename
+com.android.perrier1034.post_it_note.R$id: int popup_resurrection
+com.android.perrier1034.post_it_note.R$id: int popup_viewer
+com.android.perrier1034.post_it_note.R$id: int popup_warning_remove_image
+com.android.perrier1034.post_it_note.R$id: int popup_window_checkbox
+com.android.perrier1034.post_it_note.R$id: int popup_window_delete
+com.android.perrier1034.post_it_note.R$id: int recycler_view
+com.android.perrier1034.post_it_note.R$id: int relativeLayout
+com.android.perrier1034.post_it_note.R$id: int right
+com.android.perrier1034.post_it_note.R$id: int row_note_container
+com.android.perrier1034.post_it_note.R$id: int rubbish_recycler_view
+com.android.perrier1034.post_it_note.R$id: int section_label
+com.android.perrier1034.post_it_note.R$id: int setting_content
+com.android.perrier1034.post_it_note.R$id: int shadow_item_container
+com.android.perrier1034.post_it_note.R$id: int spinner_page
+com.android.perrier1034.post_it_note.R$id: int status_bar
+com.android.perrier1034.post_it_note.R$id: int tab_strip_main
+com.android.perrier1034.post_it_note.R$id: int text_view_when_empty
+com.android.perrier1034.post_it_note.R$id: int thumbnail
+com.android.perrier1034.post_it_note.R$id: int title
+com.android.perrier1034.post_it_note.R$id: int toolbar
+com.android.perrier1034.post_it_note.R$id: int up
+com.android.perrier1034.post_it_note.R$id: int view_pager
+com.android.perrier1034.post_it_note.R$integer: int DEFAULT_COLOR_BAR
+com.android.perrier1034.post_it_note.R$integer: int DEFAULT_COLOR_FONT
+com.android.perrier1034.post_it_note.R$integer: int DEFAULT_COLOR_FONT_BAR
+com.android.perrier1034.post_it_note.R$integer: int DEFAULT_COLOR_MAIN
+com.android.perrier1034.post_it_note.R$integer: int column_count
+com.android.perrier1034.post_it_note.R$layout: int activity_base
+com.android.perrier1034.post_it_note.R$layout: int activity_base_drawer
+com.android.perrier1034.post_it_note.R$layout: int activity_check_list
+com.android.perrier1034.post_it_note.R$layout: int activity_component_pager
+com.android.perrier1034.post_it_note.R$layout: int activity_component_rubbish
+com.android.perrier1034.post_it_note.R$layout: int activity_component_setting
+com.android.perrier1034.post_it_note.R$layout: int activity_component_setting_page
+com.android.perrier1034.post_it_note.R$layout: int activity_note_edit
+com.android.perrier1034.post_it_note.R$layout: int dialog_color_chooser
+com.android.perrier1034.post_it_note.R$layout: int dialog_component_edittext
+com.android.perrier1034.post_it_note.R$layout: int dialog_photo_viewer
+com.android.perrier1034.post_it_note.R$layout: int drawer_layout
+com.android.perrier1034.post_it_note.R$layout: int drawer_row_clickable
+com.android.perrier1034.post_it_note.R$layout: int drawer_row_section
+com.android.perrier1034.post_it_note.R$layout: int fragment_main
+com.android.perrier1034.post_it_note.R$layout: int fragment_page
+com.android.perrier1034.post_it_note.R$layout: int popup_window
+com.android.perrier1034.post_it_note.R$layout: int row_check
+com.android.perrier1034.post_it_note.R$layout: int row_main_note
+com.android.perrier1034.post_it_note.R$layout: int row_note_component_textview
+com.android.perrier1034.post_it_note.R$layout: int row_note_rubbish
+com.android.perrier1034.post_it_note.R$layout: int row_page_setting
+com.android.perrier1034.post_it_note.R$layout: int view_date_picker
+com.android.perrier1034.post_it_note.R$layout: int view_image_preview
+com.android.perrier1034.post_it_note.R$menu: int action_mode_main
+com.android.perrier1034.post_it_note.R$menu: int action_mode_rubbish
+com.android.perrier1034.post_it_note.R$menu: int compose_check
+com.android.perrier1034.post_it_note.R$menu: int compose_note
+com.android.perrier1034.post_it_note.R$menu: int global
+com.android.perrier1034.post_it_note.R$menu: int main
+com.android.perrier1034.post_it_note.R$menu: int menu_popup_page_setting
+com.android.perrier1034.post_it_note.R$menu: int menu_popup_rem_image
+com.android.perrier1034.post_it_note.R$menu: int menu_popup_rubbish
+com.android.perrier1034.post_it_note.R$menu: int menu_popup_select_image
+com.android.perrier1034.post_it_note.R$menu: int rubbish
+com.android.perrier1034.post_it_note.R$menu: int tabs
+com.android.perrier1034.post_it_note.R$mipmap: int ic_launcher
+com.android.perrier1034.post_it_note.R$string: int acra_dialog_comment_prompt
+com.android.perrier1034.post_it_note.R$string: int acra_dialog_text
+com.android.perrier1034.post_it_note.R$string: int acra_dialog_title
+com.android.perrier1034.post_it_note.R$string: int action_menu_delete_selected
+com.android.perrier1034.post_it_note.R$string: int action_menu_notes_transfer
+com.android.perrier1034.post_it_note.R$string: int action_menu_select_all
+com.android.perrier1034.post_it_note.R$string: int action_menu_share
+com.android.perrier1034.post_it_note.R$string: int action_mode_evernote
+com.android.perrier1034.post_it_note.R$string: int action_settings
+com.android.perrier1034.post_it_note.R$string: int activity_core
+com.android.perrier1034.post_it_note.R$string: int activity_page_setting
+com.android.perrier1034.post_it_note.R$string: int activity_rubbish
+com.android.perrier1034.post_it_note.R$string: int activity_settings
+com.android.perrier1034.post_it_note.R$string: int alarm_setted
+com.android.perrier1034.post_it_note.R$string: int app_name
+com.android.perrier1034.post_it_note.R$string: int cdialog_navigation_edam_login
+com.android.perrier1034.post_it_note.R$string: int cdialog_navigation_edam_login_title
+com.android.perrier1034.post_it_note.R$string: int cdialog_navigation_edam_logout
+com.android.perrier1034.post_it_note.R$string: int cdialog_navigation_edam_logout_title
+com.android.perrier1034.post_it_note.R$string: int cdialog_title_import_db
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_clear_rubbish
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_delete_db
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_delete_page
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_destroy_selected_notes
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_empty_note
+com.android.perrier1034.post_it_note.R$string: int cdialog_warning_import_db
+com.android.perrier1034.post_it_note.R$string: int clean_rubbish
+com.android.perrier1034.post_it_note.R$string: int clean_rubbish_toast
+com.android.perrier1034.post_it_note.R$string: int cleared_alarm
+com.android.perrier1034.post_it_note.R$string: int color_chooser
+com.android.perrier1034.post_it_note.R$string: int delete
+com.android.perrier1034.post_it_note.R$string: int edam_no_title
+com.android.perrier1034.post_it_note.R$string: int edialog_body
+com.android.perrier1034.post_it_note.R$string: int edialog_content
+com.android.perrier1034.post_it_note.R$string: int edialog_title
+com.android.perrier1034.post_it_note.R$string: int edialog_warnimg_maxlen
+com.android.perrier1034.post_it_note.R$string: int fab_component_new_list
+com.android.perrier1034.post_it_note.R$string: int fab_component_new_note
+com.android.perrier1034.post_it_note.R$string: int filtering
+com.android.perrier1034.post_it_note.R$string: int ldialog_delete_notebook
+com.android.perrier1034.post_it_note.R$string: int ldialog_edit_notebook
+com.android.perrier1034.post_it_note.R$string: int ldialog_transfer
+com.android.perrier1034.post_it_note.R$string: int menu_more_settings
+com.android.perrier1034.post_it_note.R$string: int menu_more_sort
+com.android.perrier1034.post_it_note.R$string: int menu_title_filter
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_edam
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_setting_others
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_setting_page
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_setting_rubbish
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_setting_section
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_sort_create
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_sort_section
+com.android.perrier1034.post_it_note.R$string: int nav_drawer_sort_update
+com.android.perrier1034.post_it_note.R$string: int nef_body
+com.android.perrier1034.post_it_note.R$string: int nef_sub_title
+com.android.perrier1034.post_it_note.R$string: int new_notebook
+com.android.perrier1034.post_it_note.R$string: int notebook_delete_warning
+com.android.perrier1034.post_it_note.R$string: int page_setting_header
+com.android.perrier1034.post_it_note.R$string: int pdialog_select_image
+com.android.perrier1034.post_it_note.R$string: int popup_capture_image
+com.android.perrier1034.post_it_note.R$string: int popup_resurrection
+com.android.perrier1034.post_it_note.R$string: int popup_select_image
+com.android.perrier1034.post_it_note.R$string: int popup_warning_remove_image
+com.android.perrier1034.post_it_note.R$string: int rename_page
+com.android.perrier1034.post_it_note.R$string: int ressurect_selected_notes_toast
+com.android.perrier1034.post_it_note.R$string: int setting_subt_backup
+com.android.perrier1034.post_it_note.R$string: int setting_subt_bar_font_color
+com.android.perrier1034.post_it_note.R$string: int setting_subt_font_size
+com.android.perrier1034.post_it_note.R$string: int setting_subt_import
+com.android.perrier1034.post_it_note.R$string: int setting_title_others
+com.android.perrier1034.post_it_note.R$string: int snack_button_resurrection
+com.android.perrier1034.post_it_note.R$string: int snack_log_deleted
+com.android.perrier1034.post_it_note.R$string: int snack_log_deleted_note_selected
+com.android.perrier1034.post_it_note.R$string: int toast_edam_auth_error
+com.android.perrier1034.post_it_note.R$string: int toast_edam_auth_success
+com.android.perrier1034.post_it_note.R$string: int toast_edam_read_notebooks_error
+com.android.perrier1034.post_it_note.R$string: int toast_edam_save_note_error
+com.android.perrier1034.post_it_note.R$string: int toast_edam_saved_note
+com.android.perrier1034.post_it_note.R$string: int toast_edam_saving
+com.android.perrier1034.post_it_note.R$string: int toast_not_saved_new_note
+com.android.perrier1034.post_it_note.R$string: int toast_reaching_max_page_count
+com.android.perrier1034.post_it_note.R$string: int toast_warning_page_all_edit
+com.android.perrier1034.post_it_note.R$string: int warning_delete_page_completely
+com.android.perrier1034.post_it_note.R$string: int warning_resurrect_page
+com.android.perrier1034.post_it_note.R$string: int warning_resurrect_page_multi_select
+com.android.perrier1034.post_it_note.R$string: int wipe_selected_notes
+com.android.perrier1034.post_it_note.R$string: int wipe_selected_notes_toast
+com.android.perrier1034.post_it_note.R$style: int ToolbarSubtitleFont
+com.android.perrier1034.post_it_note.R$style: int TransparentDialog
+com.android.perrier1034.post_it_note.R$style: int commonListItemStyle
+com.android.perrier1034.post_it_note.R$style: int commonNativeShadowItemViewStyle
+com.android.perrier1034.post_it_note.R$style: int commonNinePatchShadowContainerStyle
+com.android.perrier1034.post_it_note.R$style: int commonNinePatchShadowItemViewStyle
+com.android.perrier1034.post_it_note.R$style: int menu_labels_style
+com.android.perrier1034.post_it_note.R$style: int myRecyclerViewStyle
+com.android.perrier1034.post_it_note.R$styleable: int[] AddFloatingActionButton
+com.android.perrier1034.post_it_note.R$styleable: int AddFloatingActionButton_fab_plusIconColor
+com.android.perrier1034.post_it_note.R$styleable: int[] FloatingActionButton
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionButton_fab_colorNormal
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionButton_fab_colorPressed
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionButton_fab_icon
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionButton_fab_size
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionButton_fab_title
+com.android.perrier1034.post_it_note.R$styleable: int[] FloatingActionsMenu
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionsMenu_fab_addButtonColorNormal
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionsMenu_fab_addButtonColorPressed
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionsMenu_fab_addButtonPlusIconColor
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionsMenu_fab_expandDirection
+com.android.perrier1034.post_it_note.R$styleable: int FloatingActionsMenu_fab_labelStyle
+com.android.perrier1034.post_it_note.R$xml: int pref
+com.android.perrier1034.post_it_note.TaskQueue$: com.android.perrier1034.post_it_note.TaskQueue$ MODULE$
+com.android.perrier1034.post_it_note.db.dao.NoteStore$: com.android.perrier1034.post_it_note.db.dao.NoteStore$ MODULE$
+com.android.perrier1034.post_it_note.db.dao.PageStore$: com.android.perrier1034.post_it_note.db.dao.PageStore$ MODULE$
+com.android.perrier1034.post_it_note.model.CheckItem$: com.android.perrier1034.post_it_note.model.CheckItem$ MODULE$
+com.android.perrier1034.post_it_note.model.ImageInfo$: com.android.perrier1034.post_it_note.model.ImageInfo$ MODULE$
+com.android.perrier1034.post_it_note.model.NoteRealm
+com.android.perrier1034.post_it_note.model.PageRealm
+com.android.perrier1034.post_it_note.receiver.AlarmBroadcastReceiver
+com.android.perrier1034.post_it_note.receiver.AlarmBroadcastReceiver: AlarmBroadcastReceiver()
+com.android.perrier1034.post_it_note.receiver.AlarmBroadcastReceiver$: com.android.perrier1034.post_it_note.receiver.AlarmBroadcastReceiver$ MODULE$
+com.android.perrier1034.post_it_note.ui.BaseActivity: BaseActivity()
+com.android.perrier1034.post_it_note.ui.BaseDrawerActivity: BaseDrawerActivity()
+com.android.perrier1034.post_it_note.ui.BaseFloating: BaseFloating()
+com.android.perrier1034.post_it_note.ui.BaseFloating$: com.android.perrier1034.post_it_note.ui.BaseFloating$ MODULE$
+com.android.perrier1034.post_it_note.ui.CheckListActivity
+com.android.perrier1034.post_it_note.ui.CheckListActivity: CheckListActivity()
+com.android.perrier1034.post_it_note.ui.CheckListActivity$: com.android.perrier1034.post_it_note.ui.CheckListActivity$ MODULE$
+com.android.perrier1034.post_it_note.ui.DividerAdder$: com.android.perrier1034.post_it_note.ui.DividerAdder$ MODULE$
+com.android.perrier1034.post_it_note.ui.MultiSelectionSupport$: com.android.perrier1034.post_it_note.ui.MultiSelectionSupport$ MODULE$
+com.android.perrier1034.post_it_note.ui.NoteEditActivity
+com.android.perrier1034.post_it_note.ui.NoteEditActivity: NoteEditActivity()
+com.android.perrier1034.post_it_note.ui.NoteEditActivity$: com.android.perrier1034.post_it_note.ui.NoteEditActivity$ MODULE$
+com.android.perrier1034.post_it_note.ui.PageFragment$: com.android.perrier1034.post_it_note.ui.PageFragment$ MODULE$
+com.android.perrier1034.post_it_note.ui.PageManager
+com.android.perrier1034.post_it_note.ui.PageManager: PageManager()
+com.android.perrier1034.post_it_note.ui.PageManager$: com.android.perrier1034.post_it_note.ui.PageManager$ MODULE$
+com.android.perrier1034.post_it_note.ui.PageSettingActivity
+com.android.perrier1034.post_it_note.ui.PageSettingActivity: PageSettingActivity()
+com.android.perrier1034.post_it_note.ui.PageSettingActivity$: com.android.perrier1034.post_it_note.ui.PageSettingActivity$ MODULE$
+com.android.perrier1034.post_it_note.ui.RubbishActivity
+com.android.perrier1034.post_it_note.ui.RubbishActivity: RubbishActivity()
+com.android.perrier1034.post_it_note.ui.SettingActivity
+com.android.perrier1034.post_it_note.ui.SettingActivity: SettingActivity()
+com.android.perrier1034.post_it_note.ui.SettingActivity$: com.android.perrier1034.post_it_note.ui.SettingActivity$ MODULE$
+com.android.perrier1034.post_it_note.ui.adapters.CheckListAdapter$: com.android.perrier1034.post_it_note.ui.adapters.CheckListAdapter$ MODULE$
+com.android.perrier1034.post_it_note.ui.adapters.NoteAdapter$: com.android.perrier1034.post_it_note.ui.adapters.NoteAdapter$ MODULE$
+com.android.perrier1034.post_it_note.ui.adapters.NoteAdapter$VH$: com.android.perrier1034.post_it_note.ui.adapters.NoteAdapter$VH$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.ColorChooserDialog$: com.android.perrier1034.post_it_note.ui.dialog.ColorChooserDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.ConfirmDialog$: com.android.perrier1034.post_it_note.ui.dialog.ConfirmDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.DatePickerDialog$: com.android.perrier1034.post_it_note.ui.dialog.DatePickerDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.EditTextDialog$: com.android.perrier1034.post_it_note.ui.dialog.EditTextDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.ListDialog$: com.android.perrier1034.post_it_note.ui.dialog.ListDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.dialog.ViewerDialog$: com.android.perrier1034.post_it_note.ui.dialog.ViewerDialog$ MODULE$
+com.android.perrier1034.post_it_note.ui.fab.AddFloatingActionButton: int getPlusColor()
+com.android.perrier1034.post_it_note.ui.fab.AddFloatingActionButton: void setPlusColor(int)
+com.android.perrier1034.post_it_note.ui.fab.AddFloatingActionButton: void setPlusColorResId(int)
+com.android.perrier1034.post_it_note.ui.fab.AddFloatingActionButton: void setIcon(int)
+com.android.perrier1034.post_it_note.ui.fab.AddFloatingActionButton: android.graphics.drawable.Drawable getIconDrawable()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: FloatingActionButton(android.content.Context)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet,int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: int getSize()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setSize(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setIcon(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: int getColorNormal()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setColorNormal(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setColorNormalResId(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: int getColorPressed()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setColorPressed(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setColorPressedResId(int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: java.lang.String getTitle()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setTitle(java.lang.String)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: android.graphics.drawable.Drawable getIconDrawable()
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionButton: void setBackgroundCompat(android.graphics.drawable.Drawable)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu: FloatingActionsMenu(android.content.Context)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu: FloatingActionsMenu(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu: FloatingActionsMenu(android.content.Context,android.util.AttributeSet,int)
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu$SavedState
+com.android.perrier1034.post_it_note.ui.fab.FloatingActionsMenu$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.perrier1034.post_it_note.ui.navigation.ClickableDrawerModel$: com.android.perrier1034.post_it_note.ui.navigation.ClickableDrawerModel$ MODULE$
+com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$: com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$ MODULE$
+com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$ClickableHolder$: com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$ClickableHolder$ MODULE$
+com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$SectionHolder$: com.android.perrier1034.post_it_note.ui.navigation.DrawerAdapter$SectionHolder$ MODULE$
+com.android.perrier1034.post_it_note.ui.navigation.SectionDrawerModel$: com.android.perrier1034.post_it_note.ui.navigation.SectionDrawerModel$ MODULE$
+com.android.perrier1034.post_it_note.ui.views.HackyEditText
+com.android.perrier1034.post_it_note.ui.views.HackyEditText: HackyEditText(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.views.HackyEditText: HackyEditText(android.content.Context)
+com.android.perrier1034.post_it_note.ui.views.HackyViewPager: void setLocked(boolean)
+com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx
+com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx: void setOnSoftKeyShownListener(com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx$OnSoftKeyShownListener)
+com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx: LinearLayoutEx(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx: LinearLayoutEx(android.content.Context)
+com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx$: com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx$ MODULE$
+com.android.perrier1034.post_it_note.ui.views.LockableViewPager
+com.android.perrier1034.post_it_note.ui.views.LockableViewPager: void setPagingEnabled(boolean)
+com.android.perrier1034.post_it_note.ui.views.LockableViewPager: LockableViewPager(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.views.LockableViewPager: LockableViewPager(android.content.Context)
+com.android.perrier1034.post_it_note.ui.views.ScrollViewEx
+com.android.perrier1034.post_it_note.ui.views.ScrollViewEx: ScrollViewEx(android.content.Context,android.util.AttributeSet)
+com.android.perrier1034.post_it_note.ui.views.ScrollViewEx: ScrollViewEx(android.content.Context)
+com.android.perrier1034.post_it_note.util.AlarmUtil$: com.android.perrier1034.post_it_note.util.AlarmUtil$ MODULE$
+com.android.perrier1034.post_it_note.util.IOUtil$: com.android.perrier1034.post_it_note.util.IOUtil$ MODULE$
+com.android.perrier1034.post_it_note.util.IOUtil$RichFile$: com.android.perrier1034.post_it_note.util.IOUtil$RichFile$ MODULE$
+com.android.perrier1034.post_it_note.util.ImageUtil$: com.android.perrier1034.post_it_note.util.ImageUtil$ MODULE$
+com.android.perrier1034.post_it_note.util.SeqUtil$: com.android.perrier1034.post_it_note.util.SeqUtil$ MODULE$
+com.android.perrier1034.post_it_note.util.ViewUtil$: com.android.perrier1034.post_it_note.util.ViewUtil$ MODULE$
+com.astuetz.PagerSlidingTabStrip
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context)
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context,android.util.AttributeSet)
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context,android.util.AttributeSet,int)
+com.astuetz.PagerSlidingTabStrip: void setViewPager(android.support.v4.view.ViewPager)
+com.astuetz.PagerSlidingTabStrip: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.astuetz.PagerSlidingTabStrip: void setIndicatorColor(int)
+com.astuetz.PagerSlidingTabStrip: void setIndicatorColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getIndicatorColor()
+com.astuetz.PagerSlidingTabStrip: void setIndicatorHeight(int)
+com.astuetz.PagerSlidingTabStrip: int getIndicatorHeight()
+com.astuetz.PagerSlidingTabStrip: void setUnderlineColor(int)
+com.astuetz.PagerSlidingTabStrip: void setUnderlineColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getUnderlineColor()
+com.astuetz.PagerSlidingTabStrip: void setDividerColor(int)
+com.astuetz.PagerSlidingTabStrip: void setDividerColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getDividerColor()
+com.astuetz.PagerSlidingTabStrip: void setUnderlineHeight(int)
+com.astuetz.PagerSlidingTabStrip: int getUnderlineHeight()
+com.astuetz.PagerSlidingTabStrip: void setDividerPadding(int)
+com.astuetz.PagerSlidingTabStrip: int getDividerPadding()
+com.astuetz.PagerSlidingTabStrip: void setScrollOffset(int)
+com.astuetz.PagerSlidingTabStrip: int getScrollOffset()
+com.astuetz.PagerSlidingTabStrip: void setShouldExpand(boolean)
+com.astuetz.PagerSlidingTabStrip: boolean getShouldExpand()
+com.astuetz.PagerSlidingTabStrip: void setAllCaps(boolean)
+com.astuetz.PagerSlidingTabStrip: void setTextSize(int)
+com.astuetz.PagerSlidingTabStrip: int getTextSize()
+com.astuetz.PagerSlidingTabStrip: void setTextColor(int)
+com.astuetz.PagerSlidingTabStrip: void setTextColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getTextColor()
+com.astuetz.PagerSlidingTabStrip: void setTabBackground(int)
+com.astuetz.PagerSlidingTabStrip: int getTabBackground()
+com.astuetz.PagerSlidingTabStrip: void setTabPaddingLeftRight(int)
+com.astuetz.PagerSlidingTabStrip: int getTabPaddingLeftRight()
+com.astuetz.PagerSlidingTabStrip$SavedState
+com.astuetz.PagerSlidingTabStrip$SavedState: android.os.Parcelable$Creator CREATOR
+com.evernote.auth.EvernoteService: com.evernote.auth.EvernoteService[] values()
+com.evernote.auth.EvernoteService: com.evernote.auth.EvernoteService valueOf(java.lang.String)
+com.evernote.client.android.EvernoteOAuthActivity
+com.evernote.client.android.EvernoteOAuthActivity: EvernoteOAuthActivity()
+com.evernote.client.android.EvernoteSession$EvernoteService
+com.evernote.client.android.EvernoteSession$EvernoteService: android.os.Parcelable$Creator CREATOR
+com.evernote.client.android.EvernoteSession$EvernoteService: com.evernote.client.android.EvernoteSession$EvernoteService[] values()
+com.evernote.client.android.EvernoteSession$EvernoteService: com.evernote.client.android.EvernoteSession$EvernoteService valueOf(java.lang.String)
+com.evernote.client.android.EvernoteUtil$EvernoteInstallStatus: com.evernote.client.android.EvernoteUtil$EvernoteInstallStatus[] values()
+com.evernote.client.android.EvernoteUtil$EvernoteInstallStatus: com.evernote.client.android.EvernoteUtil$EvernoteInstallStatus valueOf(java.lang.String)
+com.evernote.client.android.asyncclient.EvernoteSearchHelper$Scope: com.evernote.client.android.asyncclient.EvernoteSearchHelper$Scope[] values()
+com.evernote.client.android.asyncclient.EvernoteSearchHelper$Scope: com.evernote.client.android.asyncclient.EvernoteSearchHelper$Scope valueOf(java.lang.String)
+com.evernote.client.android.login.EvernoteLoginActivity
+com.evernote.client.android.login.EvernoteLoginActivity: EvernoteLoginActivity()
+com.evernote.client.android.type.NoteRef
+com.evernote.client.android.type.NoteRef: android.os.Parcelable$Creator CREATOR
+com.evernote.edam.error.EDAMErrorCode: com.evernote.edam.error.EDAMErrorCode[] values()
+com.evernote.edam.error.EDAMErrorCode: com.evernote.edam.error.EDAMErrorCode valueOf(java.lang.String)
+com.evernote.edam.type.BusinessUserRole: com.evernote.edam.type.BusinessUserRole[] values()
+com.evernote.edam.type.BusinessUserRole: com.evernote.edam.type.BusinessUserRole valueOf(java.lang.String)
+com.evernote.edam.type.NoteSortOrder: com.evernote.edam.type.NoteSortOrder[] values()
+com.evernote.edam.type.NoteSortOrder: com.evernote.edam.type.NoteSortOrder valueOf(java.lang.String)
+com.evernote.edam.type.PremiumOrderStatus: com.evernote.edam.type.PremiumOrderStatus[] values()
+com.evernote.edam.type.PremiumOrderStatus: com.evernote.edam.type.PremiumOrderStatus valueOf(java.lang.String)
+com.evernote.edam.type.PrivilegeLevel: com.evernote.edam.type.PrivilegeLevel[] values()
+com.evernote.edam.type.PrivilegeLevel: com.evernote.edam.type.PrivilegeLevel valueOf(java.lang.String)
+com.evernote.edam.type.QueryFormat: com.evernote.edam.type.QueryFormat[] values()
+com.evernote.edam.type.QueryFormat: com.evernote.edam.type.QueryFormat valueOf(java.lang.String)
+com.evernote.edam.type.ReminderEmailConfig: com.evernote.edam.type.ReminderEmailConfig[] values()
+com.evernote.edam.type.ReminderEmailConfig: com.evernote.edam.type.ReminderEmailConfig valueOf(java.lang.String)
+com.evernote.edam.type.SharedNotebookInstanceRestrictions: com.evernote.edam.type.SharedNotebookInstanceRestrictions[] values()
+com.evernote.edam.type.SharedNotebookInstanceRestrictions: com.evernote.edam.type.SharedNotebookInstanceRestrictions valueOf(java.lang.String)
+com.evernote.edam.type.SharedNotebookPrivilegeLevel: com.evernote.edam.type.SharedNotebookPrivilegeLevel[] values()
+com.evernote.edam.type.SharedNotebookPrivilegeLevel: com.evernote.edam.type.SharedNotebookPrivilegeLevel valueOf(java.lang.String)
+com.evernote.edam.type.SponsoredGroupRole: com.evernote.edam.type.SponsoredGroupRole[] values()
+com.evernote.edam.type.SponsoredGroupRole: com.evernote.edam.type.SponsoredGroupRole valueOf(java.lang.String)
+com.h6ah4i.android.widget.advrecyclerview.expandable.RecyclerViewExpandableItemManager$SavedState
+com.h6ah4i.android.widget.advrecyclerview.expandable.RecyclerViewExpandableItemManager$SavedState: android.os.Parcelable$Creator CREATOR
+com.prolificinteractive.materialcalendarview.CalendarDay
+com.prolificinteractive.materialcalendarview.CalendarDay: android.os.Parcelable$Creator CREATOR
+com.prolificinteractive.materialcalendarview.MaterialCalendarView
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: MaterialCalendarView(android.content.Context)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: MaterialCalendarView(android.content.Context,android.util.AttributeSet)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setOnDateChangedListener(com.prolificinteractive.materialcalendarview.OnDateChangedListener)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setOnMonthChangedListener(com.prolificinteractive.materialcalendarview.OnMonthChangedListener)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: int getTileSize()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTileSize(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTileSizeDp(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: int getSelectionColor()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setSelectionColor(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: int getArrowColor()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setArrowColor(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: android.graphics.drawable.Drawable getLeftArrowMask()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setLeftArrowMask(android.graphics.drawable.Drawable)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: android.graphics.drawable.Drawable getRightArrowMask()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setRightArrowMask(android.graphics.drawable.Drawable)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setHeaderTextAppearance(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setDateTextAppearance(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setWeekDayTextAppearance(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: com.prolificinteractive.materialcalendarview.CalendarDay getSelectedDate()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setSelectedDate(java.util.Calendar)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setSelectedDate(java.util.Date)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setSelectedDate(com.prolificinteractive.materialcalendarview.CalendarDay)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setCurrentDate(java.util.Calendar)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setCurrentDate(java.util.Date)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: com.prolificinteractive.materialcalendarview.CalendarDay getCurrentDate()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setCurrentDate(com.prolificinteractive.materialcalendarview.CalendarDay)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: com.prolificinteractive.materialcalendarview.CalendarDay getMinimumDate()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMinimumDate(java.util.Calendar)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMinimumDate(java.util.Date)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMinimumDate(com.prolificinteractive.materialcalendarview.CalendarDay)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: com.prolificinteractive.materialcalendarview.CalendarDay getMaximumDate()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMaximumDate(java.util.Calendar)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMaximumDate(java.util.Date)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setMaximumDate(com.prolificinteractive.materialcalendarview.CalendarDay)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setShowOtherDates(boolean)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setWeekDayFormatter(com.prolificinteractive.materialcalendarview.format.WeekDayFormatter)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setDayFormatter(com.prolificinteractive.materialcalendarview.format.DayFormatter)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setWeekDayLabels(java.lang.CharSequence[])
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setWeekDayLabels(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: boolean getShowOtherDates()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTitleFormatter(com.prolificinteractive.materialcalendarview.format.TitleFormatter)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTitleMonths(java.lang.CharSequence[])
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTitleMonths(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setTopbarVisible(boolean)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: boolean getTopbarVisible()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: void setFirstDayOfWeek(int)
+com.prolificinteractive.materialcalendarview.MaterialCalendarView: int getFirstDayOfWeek()
+com.prolificinteractive.materialcalendarview.MaterialCalendarView$SavedState
+com.prolificinteractive.materialcalendarview.MaterialCalendarView$SavedState: android.os.Parcelable$Creator CREATOR
+com.squareup.okhttp.CipherSuite: com.squareup.okhttp.CipherSuite[] values()
+com.squareup.okhttp.CipherSuite: com.squareup.okhttp.CipherSuite valueOf(java.lang.String)
+com.squareup.okhttp.Protocol: com.squareup.okhttp.Protocol[] values()
+com.squareup.okhttp.Protocol: com.squareup.okhttp.Protocol valueOf(java.lang.String)
+com.squareup.okhttp.TlsVersion: com.squareup.okhttp.TlsVersion[] values()
+com.squareup.okhttp.TlsVersion: com.squareup.okhttp.TlsVersion valueOf(java.lang.String)
+com.squareup.okhttp.internal.spdy.ErrorCode: com.squareup.okhttp.internal.spdy.ErrorCode[] values()
+com.squareup.okhttp.internal.spdy.ErrorCode: com.squareup.okhttp.internal.spdy.ErrorCode valueOf(java.lang.String)
+com.squareup.okhttp.internal.spdy.HeadersMode: com.squareup.okhttp.internal.spdy.HeadersMode[] values()
+com.squareup.okhttp.internal.spdy.HeadersMode: com.squareup.okhttp.internal.spdy.HeadersMode valueOf(java.lang.String)
+com.squareup.picasso.MediaStoreRequestHandler$PicassoKind: com.squareup.picasso.MediaStoreRequestHandler$PicassoKind[] values()
+com.squareup.picasso.MediaStoreRequestHandler$PicassoKind: com.squareup.picasso.MediaStoreRequestHandler$PicassoKind valueOf(java.lang.String)
+com.squareup.picasso.MemoryPolicy: com.squareup.picasso.MemoryPolicy[] values()
+com.squareup.picasso.MemoryPolicy: com.squareup.picasso.MemoryPolicy valueOf(java.lang.String)
+com.squareup.picasso.NetworkPolicy: com.squareup.picasso.NetworkPolicy[] values()
+com.squareup.picasso.NetworkPolicy: com.squareup.picasso.NetworkPolicy valueOf(java.lang.String)
+com.squareup.picasso.Picasso$LoadedFrom: com.squareup.picasso.Picasso$LoadedFrom[] values()
+com.squareup.picasso.Picasso$LoadedFrom: com.squareup.picasso.Picasso$LoadedFrom valueOf(java.lang.String)
+com.squareup.picasso.Picasso$Priority: com.squareup.picasso.Picasso$Priority[] values()
+com.squareup.picasso.Picasso$Priority: com.squareup.picasso.Picasso$Priority valueOf(java.lang.String)
+io.realm.Case: io.realm.Case[] values()
+io.realm.Case: io.realm.Case valueOf(java.lang.String)
+io.realm.DynamicRealmObject
+io.realm.FieldAttribute: io.realm.FieldAttribute[] values()
+io.realm.FieldAttribute: io.realm.FieldAttribute valueOf(java.lang.String)
+io.realm.RealmCache$RealmCacheType: io.realm.RealmCache$RealmCacheType[] values()
+io.realm.RealmCache$RealmCacheType: io.realm.RealmCache$RealmCacheType valueOf(java.lang.String)
+io.realm.RealmFieldType
+io.realm.RealmFieldType: io.realm.RealmFieldType[] values()
+io.realm.RealmFieldType: io.realm.RealmFieldType valueOf(java.lang.String)
+io.realm.Sort: io.realm.Sort[] values()
+io.realm.Sort: io.realm.Sort valueOf(java.lang.String)
+io.realm.annotations.RealmModule
+io.realm.exceptions.RealmError
+io.realm.exceptions.RealmException
+io.realm.exceptions.RealmIOException
+io.realm.exceptions.RealmMigrationNeededException
+io.realm.exceptions.RealmPrimaryKeyConstraintException
+io.realm.internal.CheckedRow
+io.realm.internal.CheckedRow: long nativeGetColumnCount(long)
+io.realm.internal.CheckedRow: java.lang.String nativeGetColumnName(long,long)
+io.realm.internal.CheckedRow: long nativeGetColumnIndex(long,java.lang.String)
+io.realm.internal.CheckedRow: int nativeGetColumnType(long,long)
+io.realm.internal.CheckedRow: long nativeGetLong(long,long)
+io.realm.internal.CheckedRow: boolean nativeGetBoolean(long,long)
+io.realm.internal.CheckedRow: float nativeGetFloat(long,long)
+io.realm.internal.CheckedRow: double nativeGetDouble(long,long)
+io.realm.internal.CheckedRow: long nativeGetDateTime(long,long)
+io.realm.internal.CheckedRow: java.lang.String nativeGetString(long,long)
+io.realm.internal.CheckedRow: boolean nativeIsNullLink(long,long)
+io.realm.internal.CheckedRow: byte[] nativeGetByteArray(long,long)
+io.realm.internal.CheckedRow: int nativeGetMixedType(long,long)
+io.realm.internal.CheckedRow: io.realm.internal.Mixed nativeGetMixed(long,long)
+io.realm.internal.CheckedRow: long nativeGetLinkView(long,long)
+io.realm.internal.CheckedRow: void nativeSetLong(long,long,long)
+io.realm.internal.CheckedRow: void nativeSetBoolean(long,long,boolean)
+io.realm.internal.CheckedRow: void nativeSetFloat(long,long,float)
+io.realm.internal.CheckedRow: long nativeGetLink(long,long)
+io.realm.internal.CheckedRow: void nativeSetDouble(long,long,double)
+io.realm.internal.CheckedRow: void nativeSetDate(long,long,long)
+io.realm.internal.CheckedRow: void nativeSetString(long,long,java.lang.String)
+io.realm.internal.CheckedRow: void nativeSetByteArray(long,long,byte[])
+io.realm.internal.CheckedRow: void nativeSetMixed(long,long,io.realm.internal.Mixed)
+io.realm.internal.CheckedRow: void nativeSetLink(long,long,long)
+io.realm.internal.CheckedRow: void nativeNullifyLink(long,long)
+io.realm.internal.DeletedRealmListException
+io.realm.internal.Group
+io.realm.internal.Group: void nativeRemoveTable(long,java.lang.String)
+io.realm.internal.Group: void nativeRenameTable(long,java.lang.String,java.lang.String)
+io.realm.internal.Group: long createNative()
+io.realm.internal.Group: long createNative(java.lang.String,int)
+io.realm.internal.Group: long createNative(byte[])
+io.realm.internal.Group: long createNative(java.nio.ByteBuffer)
+io.realm.internal.Group: void nativeClose(long)
+io.realm.internal.Group: long nativeSize(long)
+io.realm.internal.Group: java.lang.String nativeGetTableName(long,int)
+io.realm.internal.Group: boolean nativeHasTable(long,java.lang.String)
+io.realm.internal.Group: void nativeWriteToFile(long,java.lang.String,byte[])
+io.realm.internal.Group: long nativeGetTableNativePtr(long,java.lang.String)
+io.realm.internal.Group: long nativeLoadFromMem(byte[])
+io.realm.internal.Group: byte[] nativeWriteToMem(long)
+io.realm.internal.Group: java.lang.String nativeToJson(long)
+io.realm.internal.Group: void nativeCommit(long)
+io.realm.internal.Group: java.lang.String nativeToString(long)
+io.realm.internal.Group: boolean nativeIsEmpty(long)
+io.realm.internal.InvalidRow: io.realm.internal.InvalidRow[] values()
+io.realm.internal.InvalidRow: io.realm.internal.InvalidRow valueOf(java.lang.String)
+io.realm.internal.Keep
+io.realm.internal.LinkView
+io.realm.internal.LinkView: void nativeClose(long)
+io.realm.internal.LinkView: long nativeGetRow(long,long)
+io.realm.internal.LinkView: long nativeGetTargetRowIndex(long,long)
+io.realm.internal.LinkView: void nativeAdd(long,long)
+io.realm.internal.LinkView: void nativeInsert(long,long,long)
+io.realm.internal.LinkView: void nativeSet(long,long,long)
+io.realm.internal.LinkView: void nativeMove(long,long,long)
+io.realm.internal.LinkView: void nativeRemove(long,long)
+io.realm.internal.LinkView: void nativeClear(long)
+io.realm.internal.LinkView: long nativeSize(long)
+io.realm.internal.LinkView: boolean nativeIsEmpty(long)
+io.realm.internal.LinkView: long nativeWhere(long)
+io.realm.internal.LinkView: boolean nativeIsAttached(long)
+io.realm.internal.OutOfMemoryError
+io.realm.internal.SharedGroup
+io.realm.internal.SharedGroup: long createNativeWithImplicitTransactions(long,int,byte[])
+io.realm.internal.SharedGroup: long nativeCreateReplication(java.lang.String,byte[])
+io.realm.internal.SharedGroup: void nativeCommitAndContinueAsRead(long)
+io.realm.internal.SharedGroup: long nativeBeginImplicit(long)
+io.realm.internal.SharedGroup: java.lang.String nativeGetDefaultReplicationDatabaseFileName()
+io.realm.internal.SharedGroup: void nativeReserve(long,long)
+io.realm.internal.SharedGroup: boolean nativeHasChanged(long)
+io.realm.internal.SharedGroup: long nativeBeginRead(long)
+io.realm.internal.SharedGroup: void nativeEndRead(long)
+io.realm.internal.SharedGroup: long nativeBeginWrite(long)
+io.realm.internal.SharedGroup: void nativeCommit(long)
+io.realm.internal.SharedGroup: void nativeRollback(long)
+io.realm.internal.SharedGroup: long nativeCreate(java.lang.String,int,boolean,boolean,byte[])
+io.realm.internal.SharedGroup: boolean nativeCompact(long)
+io.realm.internal.SharedGroup: void nativeClose(long)
+io.realm.internal.SharedGroup: void nativeCloseReplication(long)
+io.realm.internal.SharedGroup: void nativeRollbackAndContinueAsRead(long,long)
+io.realm.internal.SharedGroup: long[] nativeGetVersionID(long)
+io.realm.internal.SharedGroup: void nativeAdvanceRead(long,long)
+io.realm.internal.SharedGroup: void nativeAdvanceReadToVersion(long,long,long,long)
+io.realm.internal.SharedGroup: void nativePromoteToWrite(long,long)
+io.realm.internal.SharedGroup$Durability: io.realm.internal.SharedGroup$Durability[] values()
+io.realm.internal.SharedGroup$Durability: io.realm.internal.SharedGroup$Durability valueOf(java.lang.String)
+io.realm.internal.SubtableSchema
+io.realm.internal.SubtableSchema: long nativeAddColumn(long,long[],int,java.lang.String)
+io.realm.internal.SubtableSchema: void nativeRemoveColumn(long,long[],long)
+io.realm.internal.SubtableSchema: void nativeRenameColumn(long,long[],long,java.lang.String)
+io.realm.internal.Table
+io.realm.internal.Table: long createNative()
+io.realm.internal.Table: void nativeClose(long)
+io.realm.internal.Table: boolean nativeIsValid(long)
+io.realm.internal.Table: boolean nativeIsRootTable(long)
+io.realm.internal.Table: long nativeAddColumn(long,int,java.lang.String,boolean)
+io.realm.internal.Table: long nativeAddColumnLink(long,int,java.lang.String,long)
+io.realm.internal.Table: void nativeRenameColumn(long,long,java.lang.String)
+io.realm.internal.Table: void nativeRemoveColumn(long,long)
+io.realm.internal.Table: boolean nativeIsColumnNullable(long,long)
+io.realm.internal.Table: void nativeConvertColumnToNullable(long,long)
+io.realm.internal.Table: void nativeConvertColumnToNotNullable(long,long)
+io.realm.internal.Table: void nativeUpdateFromSpec(long,io.realm.internal.TableSpec)
+io.realm.internal.Table: long nativeSize(long)
+io.realm.internal.Table: void nativeClear(long)
+io.realm.internal.Table: long nativeGetColumnCount(long)
+io.realm.internal.Table: io.realm.internal.TableSpec nativeGetTableSpec(long)
+io.realm.internal.Table: java.lang.String nativeGetColumnName(long,long)
+io.realm.internal.Table: long nativeGetColumnIndex(long,java.lang.String)
+io.realm.internal.Table: int nativeGetColumnType(long,long)
+io.realm.internal.Table: void nativeRemove(long,long)
+io.realm.internal.Table: void nativeRemoveLast(long)
+io.realm.internal.Table: void nativeMoveLastOver(long,long)
+io.realm.internal.Table: long nativeAddEmptyRow(long,long)
+io.realm.internal.Table: long nativeGetSortedView(long,long,boolean)
+io.realm.internal.Table: long nativeGetSortedViewMulti(long,long[],boolean[])
+io.realm.internal.Table: long nativeGetLong(long,long,long)
+io.realm.internal.Table: boolean nativeGetBoolean(long,long,long)
+io.realm.internal.Table: float nativeGetFloat(long,long,long)
+io.realm.internal.Table: double nativeGetDouble(long,long,long)
+io.realm.internal.Table: long nativeGetDateTime(long,long,long)
+io.realm.internal.Table: java.lang.String nativeGetString(long,long,long)
+io.realm.internal.Table: byte[] nativeGetByteArray(long,long,long)
+io.realm.internal.Table: int nativeGetMixedType(long,long,long)
+io.realm.internal.Table: io.realm.internal.Mixed nativeGetMixed(long,long,long)
+io.realm.internal.Table: long nativeGetLink(long,long,long)
+io.realm.internal.Table: long nativeGetLinkTarget(long,long)
+io.realm.internal.Table: long nativeGetSubtable(long,long,long)
+io.realm.internal.Table: long nativeGetSubtableDuringInsert(long,long,long)
+io.realm.internal.Table: long nativeGetSubtableSize(long,long,long)
+io.realm.internal.Table: void nativeClearSubtable(long,long,long)
+io.realm.internal.Table: long nativeGetRowPtr(long,long)
+io.realm.internal.Table: void nativeSetLong(long,long,long,long)
+io.realm.internal.Table: void nativeSetBoolean(long,long,long,boolean)
+io.realm.internal.Table: void nativeSetFloat(long,long,long,float)
+io.realm.internal.Table: void nativeSetDouble(long,long,long,double)
+io.realm.internal.Table: void nativeSetDate(long,long,long,long)
+io.realm.internal.Table: void nativeSetString(long,long,long,java.lang.String)
+io.realm.internal.Table: void nativeSetByteArray(long,long,long,byte[])
+io.realm.internal.Table: void nativeSetMixed(long,long,long,io.realm.internal.Mixed)
+io.realm.internal.Table: void nativeSetLink(long,long,long,long)
+io.realm.internal.Table: long nativeSetPrimaryKey(long,long,java.lang.String)
+io.realm.internal.Table: void nativeMigratePrimaryKeyTableIfNeeded(long,long)
+io.realm.internal.Table: void nativeAddSearchIndex(long,long)
+io.realm.internal.Table: void nativeRemoveSearchIndex(long,long)
+io.realm.internal.Table: boolean nativeHasSearchIndex(long,long)
+io.realm.internal.Table: boolean nativeIsNullLink(long,long,long)
+io.realm.internal.Table: void nativeNullifyLink(long,long,long)
+io.realm.internal.Table: long nativeSumInt(long,long)
+io.realm.internal.Table: long nativeMaximumInt(long,long)
+io.realm.internal.Table: long nativeMinimumInt(long,long)
+io.realm.internal.Table: double nativeAverageInt(long,long)
+io.realm.internal.Table: double nativeSumFloat(long,long)
+io.realm.internal.Table: float nativeMaximumFloat(long,long)
+io.realm.internal.Table: float nativeMinimumFloat(long,long)
+io.realm.internal.Table: double nativeAverageFloat(long,long)
+io.realm.internal.Table: double nativeSumDouble(long,long)
+io.realm.internal.Table: double nativeMaximumDouble(long,long)
+io.realm.internal.Table: double nativeMinimumDouble(long,long)
+io.realm.internal.Table: double nativeAverageDouble(long,long)
+io.realm.internal.Table: long nativeMaximumDate(long,long)
+io.realm.internal.Table: long nativeMinimumDate(long,long)
+io.realm.internal.Table: long nativeCountLong(long,long,long)
+io.realm.internal.Table: long nativeCountFloat(long,long,float)
+io.realm.internal.Table: long nativeCountDouble(long,long,double)
+io.realm.internal.Table: long nativeCountString(long,long,java.lang.String)
+io.realm.internal.Table: long nativeWhere(long)
+io.realm.internal.Table: long nativeFindFirstInt(long,long,long)
+io.realm.internal.Table: long nativeFindFirstBool(long,long,boolean)
+io.realm.internal.Table: long nativeFindFirstFloat(long,long,float)
+io.realm.internal.Table: long nativeFindFirstDouble(long,long,double)
+io.realm.internal.Table: long nativeFindFirstDate(long,long,long)
+io.realm.internal.Table: long nativeFindFirstString(long,long,java.lang.String)
+io.realm.internal.Table: long nativeFindAllInt(long,long,long)
+io.realm.internal.Table: long nativeFindAllBool(long,long,boolean)
+io.realm.internal.Table: long nativeFindAllFloat(long,long,float)
+io.realm.internal.Table: long nativeFindAllDouble(long,long,double)
+io.realm.internal.Table: long nativeFindAllDate(long,long,long)
+io.realm.internal.Table: long nativeFindAllString(long,long,java.lang.String)
+io.realm.internal.Table: long nativeLowerBoundInt(long,long,long)
+io.realm.internal.Table: long nativeUpperBoundInt(long,long,long)
+io.realm.internal.Table: void nativePivot(long,long,long,int,long)
+io.realm.internal.Table: long nativeGetDistinctView(long,long)
+io.realm.internal.Table: java.lang.String nativeGetName(long)
+io.realm.internal.Table: void nativeOptimize(long)
+io.realm.internal.Table: java.lang.String nativeToJson(long)
+io.realm.internal.Table: java.lang.String nativeToString(long,long)
+io.realm.internal.Table: boolean nativeHasSameSchema(long,long)
+io.realm.internal.Table: long nativeVersion(long)
+io.realm.internal.Table: java.lang.String nativeRowToString(long,long)
+io.realm.internal.TableOrView$PivotType: io.realm.internal.TableOrView$PivotType[] values()
+io.realm.internal.TableOrView$PivotType: io.realm.internal.TableOrView$PivotType valueOf(java.lang.String)
+io.realm.internal.TableQuery
+io.realm.internal.TableQuery: void nativeClose(long)
+io.realm.internal.TableQuery: java.lang.String nativeValidateQuery(long)
+io.realm.internal.TableQuery: void nativeTableview(long,long)
+io.realm.internal.TableQuery: void nativeGroup(long)
+io.realm.internal.TableQuery: void nativeEndGroup(long)
+io.realm.internal.TableQuery: void nativeSubtable(long,long)
+io.realm.internal.TableQuery: void nativeParent(long)
+io.realm.internal.TableQuery: void nativeOr(long)
+io.realm.internal.TableQuery: void nativeNot(long)
+io.realm.internal.TableQuery: void nativeEqual(long,long[],long)
+io.realm.internal.TableQuery: void nativeNotEqual(long,long[],long)
+io.realm.internal.TableQuery: void nativeGreater(long,long[],long)
+io.realm.internal.TableQuery: void nativeGreaterEqual(long,long[],long)
+io.realm.internal.TableQuery: void nativeLess(long,long[],long)
+io.realm.internal.TableQuery: void nativeLessEqual(long,long[],long)
+io.realm.internal.TableQuery: void nativeBetween(long,long[],long,long)
+io.realm.internal.TableQuery: void nativeEqual(long,long[],float)
+io.realm.internal.TableQuery: void nativeNotEqual(long,long[],float)
+io.realm.internal.TableQuery: void nativeGreater(long,long[],float)
+io.realm.internal.TableQuery: void nativeGreaterEqual(long,long[],float)
+io.realm.internal.TableQuery: void nativeLess(long,long[],float)
+io.realm.internal.TableQuery: void nativeLessEqual(long,long[],float)
+io.realm.internal.TableQuery: void nativeBetween(long,long[],float,float)
+io.realm.internal.TableQuery: void nativeEqual(long,long[],double)
+io.realm.internal.TableQuery: void nativeNotEqual(long,long[],double)
+io.realm.internal.TableQuery: void nativeGreater(long,long[],double)
+io.realm.internal.TableQuery: void nativeGreaterEqual(long,long[],double)
+io.realm.internal.TableQuery: void nativeLess(long,long[],double)
+io.realm.internal.TableQuery: void nativeLessEqual(long,long[],double)
+io.realm.internal.TableQuery: void nativeBetween(long,long[],double,double)
+io.realm.internal.TableQuery: void nativeEqual(long,long[],boolean)
+io.realm.internal.TableQuery: void nativeEqualDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeNotEqualDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeGreaterDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeGreaterEqualDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeLessDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeLessEqualDateTime(long,long[],long)
+io.realm.internal.TableQuery: void nativeBetweenDateTime(long,long[],long,long)
+io.realm.internal.TableQuery: void nativeEqual(long,long[],java.lang.String,boolean)
+io.realm.internal.TableQuery: void nativeNotEqual(long,long[],java.lang.String,boolean)
+io.realm.internal.TableQuery: void nativeBeginsWith(long,long[],java.lang.String,boolean)
+io.realm.internal.TableQuery: void nativeEndsWith(long,long[],java.lang.String,boolean)
+io.realm.internal.TableQuery: void nativeContains(long,long[],java.lang.String,boolean)
+io.realm.internal.TableQuery: void nativeIsEmpty(long,long[])
+io.realm.internal.TableQuery: long nativeFind(long,long)
+io.realm.internal.TableQuery: long nativeFindAll(long,long,long,long)
+io.realm.internal.TableQuery: long nativeSumInt(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Long nativeMaximumInt(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Long nativeMinimumInt(long,long,long,long,long)
+io.realm.internal.TableQuery: double nativeAverageInt(long,long,long,long,long)
+io.realm.internal.TableQuery: double nativeSumFloat(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Float nativeMaximumFloat(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Float nativeMinimumFloat(long,long,long,long,long)
+io.realm.internal.TableQuery: double nativeAverageFloat(long,long,long,long,long)
+io.realm.internal.TableQuery: double nativeSumDouble(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Double nativeMaximumDouble(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Double nativeMinimumDouble(long,long,long,long,long)
+io.realm.internal.TableQuery: double nativeAverageDouble(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Long nativeMaximumDate(long,long,long,long,long)
+io.realm.internal.TableQuery: java.lang.Long nativeMinimumDate(long,long,long,long,long)
+io.realm.internal.TableQuery: void nativeIsNull(long,long[])
+io.realm.internal.TableQuery: void nativeIsNotNull(long,long[])
+io.realm.internal.TableQuery: long nativeCount(long,long,long,long)
+io.realm.internal.TableQuery: long nativeRemove(long,long,long,long)
+io.realm.internal.TableQuery: long nativeImportHandoverTableViewIntoSharedGroup(long,long)
+io.realm.internal.TableQuery: long nativeHandoverQuery(long,long)
+io.realm.internal.TableQuery: long nativeFindAllSortedWithHandover(long,long,long,long,long,long,long,boolean)
+io.realm.internal.TableQuery: long nativeFindAllWithHandover(long,long,long,long,long,long)
+io.realm.internal.TableQuery: long nativeGetDistinctViewWithHandover(long,long,long,long)
+io.realm.internal.TableQuery: long nativeFindWithHandover(long,long,long,long)
+io.realm.internal.TableQuery: long nativeFindAllMultiSortedWithHandover(long,long,long,long,long,long,long[],boolean[])
+io.realm.internal.TableQuery: long nativeImportHandoverRowIntoSharedGroup(long,long)
+io.realm.internal.TableQuery: void nativeCloseQueryHandover(long)
+io.realm.internal.TableQuery: long[] nativeBatchUpdateQueries(long,long,long[],long[][],long[][],boolean[][])
+io.realm.internal.TableSpec
+io.realm.internal.TableView
+io.realm.internal.TableView: void nativeClose(long)
+io.realm.internal.TableView: long nativeSize(long)
+io.realm.internal.TableView: long nativeGetSourceRowIndex(long,long)
+io.realm.internal.TableView: long nativeGetColumnCount(long)
+io.realm.internal.TableView: java.lang.String nativeGetColumnName(long,long)
+io.realm.internal.TableView: long nativeGetColumnIndex(long,java.lang.String)
+io.realm.internal.TableView: int nativeGetColumnType(long,long)
+io.realm.internal.TableView: long nativeGetLong(long,long,long)
+io.realm.internal.TableView: boolean nativeGetBoolean(long,long,long)
+io.realm.internal.TableView: float nativeGetFloat(long,long,long)
+io.realm.internal.TableView: double nativeGetDouble(long,long,long)
+io.realm.internal.TableView: long nativeGetDateTimeValue(long,long,long)
+io.realm.internal.TableView: java.lang.String nativeGetString(long,long,long)
+io.realm.internal.TableView: byte[] nativeGetByteArray(long,long,long)
+io.realm.internal.TableView: int nativeGetMixedType(long,long,long)
+io.realm.internal.TableView: io.realm.internal.Mixed nativeGetMixed(long,long,long)
+io.realm.internal.TableView: long nativeGetLink(long,long,long)
+io.realm.internal.TableView: long nativeGetSubtable(long,long,long)
+io.realm.internal.TableView: long nativeGetSubtableSize(long,long,long)
+io.realm.internal.TableView: void nativeClearSubtable(long,long,long)
+io.realm.internal.TableView: void nativeSetLong(long,long,long,long)
+io.realm.internal.TableView: void nativeSetBoolean(long,long,long,boolean)
+io.realm.internal.TableView: void nativeSetFloat(long,long,long,float)
+io.realm.internal.TableView: void nativeSetDouble(long,long,long,double)
+io.realm.internal.TableView: void nativeSetDateTimeValue(long,long,long,long)
+io.realm.internal.TableView: void nativeSetString(long,long,long,java.lang.String)
+io.realm.internal.TableView: void nativeSetByteArray(long,long,long,byte[])
+io.realm.internal.TableView: void nativeSetMixed(long,long,long,io.realm.internal.Mixed)
+io.realm.internal.TableView: void nativeSetLink(long,long,long,long)
+io.realm.internal.TableView: boolean nativeIsNullLink(long,long,long)
+io.realm.internal.TableView: void nativeNullifyLink(long,long,long)
+io.realm.internal.TableView: void nativeClear(long)
+io.realm.internal.TableView: void nativeRemoveRow(long,long)
+io.realm.internal.TableView: long nativeFindFirstInt(long,long,long)
+io.realm.internal.TableView: long nativeFindFirstBool(long,long,boolean)
+io.realm.internal.TableView: long nativeFindFirstFloat(long,long,float)
+io.realm.internal.TableView: long nativeFindFirstDouble(long,long,double)
+io.realm.internal.TableView: long nativeFindFirstDate(long,long,long)
+io.realm.internal.TableView: long nativeFindFirstString(long,long,java.lang.String)
+io.realm.internal.TableView: long nativeFindAllInt(long,long,long)
+io.realm.internal.TableView: long nativeFindAllBool(long,long,boolean)
+io.realm.internal.TableView: long nativeFindAllFloat(long,long,float)
+io.realm.internal.TableView: long nativeFindAllDouble(long,long,double)
+io.realm.internal.TableView: long nativeFindAllDate(long,long,long)
+io.realm.internal.TableView: long nativeSumInt(long,long)
+io.realm.internal.TableView: long nativeFindAllString(long,long,java.lang.String)
+io.realm.internal.TableView: java.lang.Long nativeMaximumInt(long,long)
+io.realm.internal.TableView: java.lang.Long nativeMinimumInt(long,long)
+io.realm.internal.TableView: double nativeAverageInt(long,long)
+io.realm.internal.TableView: double nativeSumFloat(long,long)
+io.realm.internal.TableView: java.lang.Float nativeMaximumFloat(long,long)
+io.realm.internal.TableView: java.lang.Float nativeMinimumFloat(long,long)
+io.realm.internal.TableView: double nativeAverageFloat(long,long)
+io.realm.internal.TableView: double nativeSumDouble(long,long)
+io.realm.internal.TableView: java.lang.Double nativeMaximumDouble(long,long)
+io.realm.internal.TableView: java.lang.Double nativeMinimumDouble(long,long)
+io.realm.internal.TableView: double nativeAverageDouble(long,long)
+io.realm.internal.TableView: java.lang.Long nativeMaximumDate(long,long)
+io.realm.internal.TableView: java.lang.Long nativeMinimumDate(long,long)
+io.realm.internal.TableView: void nativeSort(long,long,boolean)
+io.realm.internal.TableView: void nativeSortMulti(long,long[],boolean[])
+io.realm.internal.TableView: long createNativeTableView(io.realm.internal.Table,long)
+io.realm.internal.TableView: java.lang.String nativeToJson(long)
+io.realm.internal.TableView: java.lang.String nativeToString(long,long)
+io.realm.internal.TableView: java.lang.String nativeRowToString(long,long)
+io.realm.internal.TableView: long nativeWhere(long)
+io.realm.internal.TableView: void nativePivot(long,long,long,int,long)
+io.realm.internal.TableView: long nativeSync(long)
+io.realm.internal.UncheckedRow
+io.realm.internal.UncheckedRow: long nativeGetColumnCount(long)
+io.realm.internal.UncheckedRow: java.lang.String nativeGetColumnName(long,long)
+io.realm.internal.UncheckedRow: long nativeGetColumnIndex(long,java.lang.String)
+io.realm.internal.UncheckedRow: int nativeGetColumnType(long,long)
+io.realm.internal.UncheckedRow: long nativeGetIndex(long)
+io.realm.internal.UncheckedRow: long nativeGetLong(long,long)
+io.realm.internal.UncheckedRow: boolean nativeGetBoolean(long,long)
+io.realm.internal.UncheckedRow: float nativeGetFloat(long,long)
+io.realm.internal.UncheckedRow: double nativeGetDouble(long,long)
+io.realm.internal.UncheckedRow: long nativeGetDateTime(long,long)
+io.realm.internal.UncheckedRow: java.lang.String nativeGetString(long,long)
+io.realm.internal.UncheckedRow: boolean nativeIsNullLink(long,long)
+io.realm.internal.UncheckedRow: byte[] nativeGetByteArray(long,long)
+io.realm.internal.UncheckedRow: int nativeGetMixedType(long,long)
+io.realm.internal.UncheckedRow: io.realm.internal.Mixed nativeGetMixed(long,long)
+io.realm.internal.UncheckedRow: long nativeGetLinkView(long,long)
+io.realm.internal.UncheckedRow: void nativeSetLong(long,long,long)
+io.realm.internal.UncheckedRow: void nativeSetBoolean(long,long,boolean)
+io.realm.internal.UncheckedRow: void nativeSetFloat(long,long,float)
+io.realm.internal.UncheckedRow: long nativeGetLink(long,long)
+io.realm.internal.UncheckedRow: void nativeSetDouble(long,long,double)
+io.realm.internal.UncheckedRow: void nativeSetDate(long,long,long)
+io.realm.internal.UncheckedRow: void nativeSetString(long,long,java.lang.String)
+io.realm.internal.UncheckedRow: void nativeSetByteArray(long,long,byte[])
+io.realm.internal.UncheckedRow: void nativeSetMixed(long,long,io.realm.internal.Mixed)
+io.realm.internal.UncheckedRow: void nativeSetLink(long,long,long)
+io.realm.internal.UncheckedRow: void nativeNullifyLink(long,long)
+io.realm.internal.UncheckedRow: void nativeClose(long)
+io.realm.internal.UncheckedRow: boolean nativeIsAttached(long)
+io.realm.internal.UncheckedRow: boolean nativeHasColumn(long,java.lang.String)
+io.realm.internal.UncheckedRow: boolean nativeIsNull(long,long)
+io.realm.internal.UncheckedRow: void nativeSetNull(long,long)
+io.realm.internal.Util
+io.realm.internal.Util: long nativeGetMemUsage()
+io.realm.internal.Util: void nativeSetDebugLevel(int)
+io.realm.internal.Util: java.lang.String nativeGetTablePrefix()
+io.realm.internal.Util: java.lang.String nativeTestcase(int,boolean,long)
+io.realm.internal.Util$Testcase: io.realm.internal.Util$Testcase[] values()
+io.realm.internal.Util$Testcase: io.realm.internal.Util$Testcase valueOf(java.lang.String)
+io.realm.internal.Version
+io.realm.internal.Version: java.lang.String nativeGetVersion()
+io.realm.internal.Version: boolean nativeHasFeature(int)
+io.realm.internal.Version: boolean nativeIsAtLeast(int,int,int)
+io.realm.internal.Version: int nativeGetAPIVersion()
+io.realm.internal.Version$Feature: io.realm.internal.Version$Feature[] values()
+io.realm.internal.Version$Feature: io.realm.internal.Version$Feature valueOf(java.lang.String)
+io.realm.internal.async.BadVersionException
+io.realm.processor.javawriter.JavaWriter$Scope: io.realm.processor.javawriter.JavaWriter$Scope[] values()
+io.realm.processor.javawriter.JavaWriter$Scope: io.realm.processor.javawriter.JavaWriter$Scope valueOf(java.lang.String)
+net.vrallev.android.task.TaskExecutor$PostResult: net.vrallev.android.task.TaskExecutor$PostResult[] values()
+net.vrallev.android.task.TaskExecutor$PostResult: net.vrallev.android.task.TaskExecutor$PostResult valueOf(java.lang.String)
+org.scribe.model.SignatureType: org.scribe.model.SignatureType[] values()
+org.scribe.model.SignatureType: org.scribe.model.SignatureType valueOf(java.lang.String)
+org.scribe.model.Verb: org.scribe.model.Verb[] values()
+org.scribe.model.Verb: org.scribe.model.Verb valueOf(java.lang.String)
+scala.Array$: scala.Array$ MODULE$
+scala.Boolean$: scala.Boolean$ MODULE$
+scala.Byte$: scala.Byte$ MODULE$
+scala.Char$: scala.Char$ MODULE$
+scala.Console$: scala.Console$ MODULE$
+scala.Double$: scala.Double$ MODULE$
+scala.Float$: scala.Float$ MODULE$
+scala.Function$: scala.Function$ MODULE$
+scala.Int$: scala.Int$ MODULE$
+scala.Long$: scala.Long$ MODULE$
+scala.None$: scala.None$ MODULE$
+scala.Option$: scala.Option$ MODULE$
+scala.PartialFunction$: scala.PartialFunction$ MODULE$
+scala.Predef$: scala.Predef$ MODULE$
+scala.Predef$$eq$colon$eq$: scala.Predef$$eq$colon$eq$ MODULE$
+scala.Predef$ArrowAssoc$: scala.Predef$ArrowAssoc$ MODULE$
+scala.Predef$DummyImplicit$: scala.Predef$DummyImplicit$ MODULE$
+scala.Predef$Ensuring$: scala.Predef$Ensuring$ MODULE$
+scala.Predef$Pair$: scala.Predef$Pair$ MODULE$
+scala.Predef$RichException$: scala.Predef$RichException$ MODULE$
+scala.Predef$StringAdd$: scala.Predef$StringAdd$ MODULE$
+scala.Predef$StringFormat$: scala.Predef$StringFormat$ MODULE$
+scala.Predef$Triple$: scala.Predef$Triple$ MODULE$
+scala.Predef$any2stringadd$: scala.Predef$any2stringadd$ MODULE$
+scala.Product1$: scala.Product1$ MODULE$
+scala.Product10$: scala.Product10$ MODULE$
+scala.Product11$: scala.Product11$ MODULE$
+scala.Product12$: scala.Product12$ MODULE$
+scala.Product13$: scala.Product13$ MODULE$
+scala.Product14$: scala.Product14$ MODULE$
+scala.Product15$: scala.Product15$ MODULE$
+scala.Product16$: scala.Product16$ MODULE$
+scala.Product17$: scala.Product17$ MODULE$
+scala.Product18$: scala.Product18$ MODULE$
+scala.Product19$: scala.Product19$ MODULE$
+scala.Product2$: scala.Product2$ MODULE$
+scala.Product20$: scala.Product20$ MODULE$
+scala.Product21$: scala.Product21$ MODULE$
+scala.Product22$: scala.Product22$ MODULE$
+scala.Product3$: scala.Product3$ MODULE$
+scala.Product4$: scala.Product4$ MODULE$
+scala.Product5$: scala.Product5$ MODULE$
+scala.Product6$: scala.Product6$ MODULE$
+scala.Product7$: scala.Product7$ MODULE$
+scala.Product8$: scala.Product8$ MODULE$
+scala.Product9$: scala.Product9$ MODULE$
+scala.Proxy$: scala.Proxy$ MODULE$
+scala.Responder$: scala.Responder$ MODULE$
+scala.ScalaReflectionException$: scala.ScalaReflectionException$ MODULE$
+scala.Short$: scala.Short$ MODULE$
+scala.Some$: scala.Some$ MODULE$
+scala.Specializable$: scala.Specializable$ MODULE$
+scala.StringContext$: scala.StringContext$ MODULE$
+scala.Symbol$: scala.Symbol$ MODULE$
+scala.Tuple1$: scala.Tuple1$ MODULE$
+scala.Tuple10$: scala.Tuple10$ MODULE$
+scala.Tuple11$: scala.Tuple11$ MODULE$
+scala.Tuple12$: scala.Tuple12$ MODULE$
+scala.Tuple13$: scala.Tuple13$ MODULE$
+scala.Tuple14$: scala.Tuple14$ MODULE$
+scala.Tuple15$: scala.Tuple15$ MODULE$
+scala.Tuple16$: scala.Tuple16$ MODULE$
+scala.Tuple17$: scala.Tuple17$ MODULE$
+scala.Tuple18$: scala.Tuple18$ MODULE$
+scala.Tuple19$: scala.Tuple19$ MODULE$
+scala.Tuple2$: scala.Tuple2$ MODULE$
+scala.Tuple20$: scala.Tuple20$ MODULE$
+scala.Tuple21$: scala.Tuple21$ MODULE$
+scala.Tuple22$: scala.Tuple22$ MODULE$
+scala.Tuple3$: scala.Tuple3$ MODULE$
+scala.Tuple4$: scala.Tuple4$ MODULE$
+scala.Tuple5$: scala.Tuple5$ MODULE$
+scala.Tuple6$: scala.Tuple6$ MODULE$
+scala.Tuple7$: scala.Tuple7$ MODULE$
+scala.Tuple8$: scala.Tuple8$ MODULE$
+scala.Tuple9$: scala.Tuple9$ MODULE$
+scala.UninitializedFieldError$: scala.UninitializedFieldError$ MODULE$
+scala.Unit$: scala.Unit$ MODULE$
+scala.annotation.elidable$: scala.annotation.elidable$ MODULE$
+scala.annotation.meta.package$: scala.annotation.meta.package$ MODULE$
+scala.collection.$colon$plus$: scala.collection.$colon$plus$ MODULE$
+scala.collection.$plus$colon$: scala.collection.$plus$colon$ MODULE$
+scala.collection.BitSet$: scala.collection.BitSet$ MODULE$
+scala.collection.BitSetLike$: scala.collection.BitSetLike$ MODULE$
+scala.collection.DebugUtils$: scala.collection.DebugUtils$ MODULE$
+scala.collection.GenIterable$: scala.collection.GenIterable$ MODULE$
+scala.collection.GenMap$: scala.collection.GenMap$ MODULE$
+scala.collection.GenSeq$: scala.collection.GenSeq$ MODULE$
+scala.collection.GenSet$: scala.collection.GenSet$ MODULE$
+scala.collection.GenTraversable$: scala.collection.GenTraversable$ MODULE$
+scala.collection.IndexedSeq$: scala.collection.IndexedSeq$ MODULE$
+scala.collection.Iterable$: scala.collection.Iterable$ MODULE$
+scala.collection.IterableView$: scala.collection.IterableView$ MODULE$
+scala.collection.Iterator$: scala.collection.Iterator$ MODULE$
+scala.collection.JavaConversions$: scala.collection.JavaConversions$ MODULE$
+scala.collection.JavaConverters$: scala.collection.JavaConverters$ MODULE$
+scala.collection.LinearSeq$: scala.collection.LinearSeq$ MODULE$
+scala.collection.Map$: scala.collection.Map$ MODULE$
+scala.collection.Searching$: scala.collection.Searching$ MODULE$
+scala.collection.Searching$Found$: scala.collection.Searching$Found$ MODULE$
+scala.collection.Searching$InsertionPoint$: scala.collection.Searching$InsertionPoint$ MODULE$
+scala.collection.Seq$: scala.collection.Seq$ MODULE$
+scala.collection.SeqLike
+scala.collection.SeqLike: scala.collection.Seq thisCollection()
+scala.collection.SeqLike: scala.collection.Seq toCollection(java.lang.Object)
+scala.collection.SeqLike: int length()
+scala.collection.SeqLike: java.lang.Object apply(int)
+scala.collection.SeqLike: scala.collection.parallel.Combiner parCombiner()
+scala.collection.SeqLike: int lengthCompare(int)
+scala.collection.SeqLike: boolean isEmpty()
+scala.collection.SeqLike: int size()
+scala.collection.SeqLike: int segmentLength(scala.Function1,int)
+scala.collection.SeqLike: int indexWhere(scala.Function1,int)
+scala.collection.SeqLike: int lastIndexWhere(scala.Function1,int)
+scala.collection.SeqLike: scala.collection.Iterator permutations()
+scala.collection.SeqLike: scala.collection.Iterator combinations(int)
+scala.collection.SeqLike: java.lang.Object reverse()
+scala.collection.SeqLike: java.lang.Object reverseMap(scala.Function1,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: scala.collection.Iterator reverseIterator()
+scala.collection.SeqLike: boolean startsWith(scala.collection.GenSeq,int)
+scala.collection.SeqLike: boolean endsWith(scala.collection.GenSeq)
+scala.collection.SeqLike: int indexOfSlice(scala.collection.GenSeq)
+scala.collection.SeqLike: int indexOfSlice(scala.collection.GenSeq,int)
+scala.collection.SeqLike: int lastIndexOfSlice(scala.collection.GenSeq)
+scala.collection.SeqLike: int lastIndexOfSlice(scala.collection.GenSeq,int)
+scala.collection.SeqLike: boolean containsSlice(scala.collection.GenSeq)
+scala.collection.SeqLike: boolean contains(java.lang.Object)
+scala.collection.SeqLike: java.lang.Object union(scala.collection.GenSeq,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: java.lang.Object diff(scala.collection.GenSeq)
+scala.collection.SeqLike: java.lang.Object intersect(scala.collection.GenSeq)
+scala.collection.SeqLike: java.lang.Object distinct()
+scala.collection.SeqLike: java.lang.Object patch(int,scala.collection.GenSeq,int,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: java.lang.Object updated(int,java.lang.Object,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: java.lang.Object $plus$colon(java.lang.Object,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: java.lang.Object $colon$plus(java.lang.Object,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: java.lang.Object padTo(int,java.lang.Object,scala.collection.generic.CanBuildFrom)
+scala.collection.SeqLike: boolean corresponds(scala.collection.GenSeq,scala.Function2)
+scala.collection.SeqLike: java.lang.Object sortWith(scala.Function2)
+scala.collection.SeqLike: java.lang.Object sortBy(scala.Function1,scala.math.Ordering)
+scala.collection.SeqLike: java.lang.Object sorted(scala.math.Ordering)
+scala.collection.SeqLike: scala.collection.Seq toSeq()
+scala.collection.SeqLike: scala.collection.immutable.Range indices()
+scala.collection.SeqLike: scala.collection.SeqView view()
+scala.collection.SeqLike: scala.collection.SeqView view(int,int)
+scala.collection.SeqLike: java.lang.String toString()
+scala.collection.SeqLike$: scala.collection.SeqLike$ MODULE$
+scala.collection.SeqView$: scala.collection.SeqView$ MODULE$
+scala.collection.Set$: scala.collection.Set$ MODULE$
+scala.collection.SortedMap$: scala.collection.SortedMap$ MODULE$
+scala.collection.SortedSet$: scala.collection.SortedSet$ MODULE$
+scala.collection.Traversable$: scala.collection.Traversable$ MODULE$
+scala.collection.TraversableOnce$: scala.collection.TraversableOnce$ MODULE$
+scala.collection.TraversableView$: scala.collection.TraversableView$ MODULE$
+scala.collection.concurrent.CNode$: scala.collection.concurrent.CNode$ MODULE$
+scala.collection.concurrent.Debug$: scala.collection.concurrent.Debug$ MODULE$
+scala.collection.concurrent.INode$: scala.collection.concurrent.INode$ MODULE$
+scala.collection.concurrent.RDCSS_Descriptor$: scala.collection.concurrent.RDCSS_Descriptor$ MODULE$
+scala.collection.concurrent.RestartException$: scala.collection.concurrent.RestartException$ MODULE$
+scala.collection.concurrent.TrieMap$: scala.collection.concurrent.TrieMap$ MODULE$
+scala.collection.concurrent.TrieMapIterator$: scala.collection.concurrent.TrieMapIterator$ MODULE$
+scala.collection.concurrent.TrieMapSerializationEnd$: scala.collection.concurrent.TrieMapSerializationEnd$ MODULE$
+scala.collection.convert.Decorators$: scala.collection.convert.Decorators$ MODULE$
+scala.collection.convert.WrapAsJava$: scala.collection.convert.WrapAsJava$ MODULE$
+scala.collection.convert.WrapAsScala$: scala.collection.convert.WrapAsScala$ MODULE$
+scala.collection.convert.Wrappers$: scala.collection.convert.Wrappers$ MODULE$
+scala.collection.convert.package$: scala.collection.convert.package$ MODULE$
+scala.collection.generic.BitOperations$: scala.collection.generic.BitOperations$ MODULE$
+scala.collection.generic.BitOperations$Int$: scala.collection.generic.BitOperations$Int$ MODULE$
+scala.collection.generic.BitOperations$Long$: scala.collection.generic.BitOperations$Long$ MODULE$
+scala.collection.generic.IdleSignalling$: scala.collection.generic.IdleSignalling$ MODULE$
+scala.collection.generic.IsSeqLike$: scala.collection.generic.IsSeqLike$ MODULE$
+scala.collection.generic.IsTraversableLike$: scala.collection.generic.IsTraversableLike$ MODULE$
+scala.collection.generic.IsTraversableOnce$: scala.collection.generic.IsTraversableOnce$ MODULE$
+scala.collection.generic.SliceInterval$: scala.collection.generic.SliceInterval$ MODULE$
+scala.collection.generic.package$: scala.collection.generic.package$ MODULE$
+scala.collection.immutable.$colon$colon$: scala.collection.immutable.$colon$colon$ MODULE$
+scala.collection.immutable.BitSet$: scala.collection.immutable.BitSet$ MODULE$
+scala.collection.immutable.HashMap$: scala.collection.immutable.HashMap$ MODULE$
+scala.collection.immutable.HashMap$EmptyHashMap$: scala.collection.immutable.HashMap$EmptyHashMap$ MODULE$
+scala.collection.immutable.HashSet$: scala.collection.immutable.HashSet$ MODULE$
+scala.collection.immutable.HashSet$EmptyHashSet$: scala.collection.immutable.HashSet$EmptyHashSet$ MODULE$
+scala.collection.immutable.IndexedSeq$: scala.collection.immutable.IndexedSeq$ MODULE$
+scala.collection.immutable.IntMap$: scala.collection.immutable.IntMap$ MODULE$
+scala.collection.immutable.IntMap$Bin$: scala.collection.immutable.IntMap$Bin$ MODULE$
+scala.collection.immutable.IntMap$Nil$: scala.collection.immutable.IntMap$Nil$ MODULE$
+scala.collection.immutable.IntMap$Tip$: scala.collection.immutable.IntMap$Tip$ MODULE$
+scala.collection.immutable.IntMapUtils$: scala.collection.immutable.IntMapUtils$ MODULE$
+scala.collection.immutable.Iterable$: scala.collection.immutable.Iterable$ MODULE$
+scala.collection.immutable.LinearSeq$: scala.collection.immutable.LinearSeq$ MODULE$
+scala.collection.immutable.List$: scala.collection.immutable.List$ MODULE$
+scala.collection.immutable.ListMap$: scala.collection.immutable.ListMap$ MODULE$
+scala.collection.immutable.ListMap$EmptyListMap$: scala.collection.immutable.ListMap$EmptyListMap$ MODULE$
+scala.collection.immutable.ListSerializeEnd$: scala.collection.immutable.ListSerializeEnd$ MODULE$
+scala.collection.immutable.ListSet$: scala.collection.immutable.ListSet$ MODULE$
+scala.collection.immutable.ListSet$EmptyListSet$: scala.collection.immutable.ListSet$EmptyListSet$ MODULE$
+scala.collection.immutable.LongMap$: scala.collection.immutable.LongMap$ MODULE$
+scala.collection.immutable.LongMap$Bin$: scala.collection.immutable.LongMap$Bin$ MODULE$
+scala.collection.immutable.LongMap$Nil$: scala.collection.immutable.LongMap$Nil$ MODULE$
+scala.collection.immutable.LongMap$Tip$: scala.collection.immutable.LongMap$Tip$ MODULE$
+scala.collection.immutable.LongMapUtils$: scala.collection.immutable.LongMapUtils$ MODULE$
+scala.collection.immutable.Map$: scala.collection.immutable.Map$ MODULE$
+scala.collection.immutable.Map$EmptyMap$: scala.collection.immutable.Map$EmptyMap$ MODULE$
+scala.collection.immutable.Nil$: scala.collection.immutable.Nil$ MODULE$
+scala.collection.immutable.NumericRange$: scala.collection.immutable.NumericRange$ MODULE$
+scala.collection.immutable.PagedSeq$: scala.collection.immutable.PagedSeq$ MODULE$
+scala.collection.immutable.Queue$: scala.collection.immutable.Queue$ MODULE$
+scala.collection.immutable.Queue$EmptyQueue$: scala.collection.immutable.Queue$EmptyQueue$ MODULE$
+scala.collection.immutable.Range$: scala.collection.immutable.Range$ MODULE$
+scala.collection.immutable.Range$BigDecimal$: scala.collection.immutable.Range$BigDecimal$ MODULE$
+scala.collection.immutable.Range$BigInt$: scala.collection.immutable.Range$BigInt$ MODULE$
+scala.collection.immutable.Range$Double$: scala.collection.immutable.Range$Double$ MODULE$
+scala.collection.immutable.Range$Int$: scala.collection.immutable.Range$Int$ MODULE$
+scala.collection.immutable.Range$Long$: scala.collection.immutable.Range$Long$ MODULE$
+scala.collection.immutable.RedBlackTree$: scala.collection.immutable.RedBlackTree$ MODULE$
+scala.collection.immutable.RedBlackTree$BlackTree$: scala.collection.immutable.RedBlackTree$BlackTree$ MODULE$
+scala.collection.immutable.RedBlackTree$NList$: scala.collection.immutable.RedBlackTree$NList$ MODULE$
+scala.collection.immutable.RedBlackTree$RedTree$: scala.collection.immutable.RedBlackTree$RedTree$ MODULE$
+scala.collection.immutable.Seq$: scala.collection.immutable.Seq$ MODULE$
+scala.collection.immutable.Set$: scala.collection.immutable.Set$ MODULE$
+scala.collection.immutable.Set$EmptySet$: scala.collection.immutable.Set$EmptySet$ MODULE$
+scala.collection.immutable.SortedMap$: scala.collection.immutable.SortedMap$ MODULE$
+scala.collection.immutable.SortedSet$: scala.collection.immutable.SortedSet$ MODULE$
+scala.collection.immutable.Stack$: scala.collection.immutable.Stack$ MODULE$
+scala.collection.immutable.Stream$: scala.collection.immutable.Stream$ MODULE$
+scala.collection.immutable.Stream$$hash$colon$colon$: scala.collection.immutable.Stream$$hash$colon$colon$ MODULE$
+scala.collection.immutable.Stream$Empty$: scala.collection.immutable.Stream$Empty$ MODULE$
+scala.collection.immutable.Stream$cons$: scala.collection.immutable.Stream$cons$ MODULE$
+scala.collection.immutable.StringLike$: scala.collection.immutable.StringLike$ MODULE$
+scala.collection.immutable.StringOps$: scala.collection.immutable.StringOps$ MODULE$
+scala.collection.immutable.Traversable$: scala.collection.immutable.Traversable$ MODULE$
+scala.collection.immutable.TreeMap$: scala.collection.immutable.TreeMap$ MODULE$
+scala.collection.immutable.TreeSet$: scala.collection.immutable.TreeSet$ MODULE$
+scala.collection.immutable.Vector$: scala.collection.immutable.Vector$ MODULE$
+scala.collection.immutable.WrappedString$: scala.collection.immutable.WrappedString$ MODULE$
+scala.collection.mutable.AnyRefMap$: scala.collection.mutable.AnyRefMap$ MODULE$
+scala.collection.mutable.ArrayBuffer$: scala.collection.mutable.ArrayBuffer$ MODULE$
+scala.collection.mutable.ArrayBuilder$: scala.collection.mutable.ArrayBuilder$ MODULE$
+scala.collection.mutable.ArrayOps$: scala.collection.mutable.ArrayOps$ MODULE$
+scala.collection.mutable.ArrayOps$ofBoolean$: scala.collection.mutable.ArrayOps$ofBoolean$ MODULE$
+scala.collection.mutable.ArrayOps$ofByte$: scala.collection.mutable.ArrayOps$ofByte$ MODULE$
+scala.collection.mutable.ArrayOps$ofChar$: scala.collection.mutable.ArrayOps$ofChar$ MODULE$
+scala.collection.mutable.ArrayOps$ofDouble$: scala.collection.mutable.ArrayOps$ofDouble$ MODULE$
+scala.collection.mutable.ArrayOps$ofFloat$: scala.collection.mutable.ArrayOps$ofFloat$ MODULE$
+scala.collection.mutable.ArrayOps$ofInt$: scala.collection.mutable.ArrayOps$ofInt$ MODULE$
+scala.collection.mutable.ArrayOps$ofLong$: scala.collection.mutable.ArrayOps$ofLong$ MODULE$
+scala.collection.mutable.ArrayOps$ofRef$: scala.collection.mutable.ArrayOps$ofRef$ MODULE$
+scala.collection.mutable.ArrayOps$ofShort$: scala.collection.mutable.ArrayOps$ofShort$ MODULE$
+scala.collection.mutable.ArrayOps$ofUnit$: scala.collection.mutable.ArrayOps$ofUnit$ MODULE$
+scala.collection.mutable.ArraySeq$: scala.collection.mutable.ArraySeq$ MODULE$
+scala.collection.mutable.ArrayStack$: scala.collection.mutable.ArrayStack$ MODULE$
+scala.collection.mutable.BitSet$: scala.collection.mutable.BitSet$ MODULE$
+scala.collection.mutable.Buffer$: scala.collection.mutable.Buffer$ MODULE$
+scala.collection.mutable.DoubleLinkedList$: scala.collection.mutable.DoubleLinkedList$ MODULE$
+scala.collection.mutable.FlatHashTable$: scala.collection.mutable.FlatHashTable$ MODULE$
+scala.collection.mutable.FlatHashTable$NullSentinel$: scala.collection.mutable.FlatHashTable$NullSentinel$ MODULE$
+scala.collection.mutable.HashMap$: scala.collection.mutable.HashMap$ MODULE$
+scala.collection.mutable.HashSet$: scala.collection.mutable.HashSet$ MODULE$
+scala.collection.mutable.HashTable$: scala.collection.mutable.HashTable$ MODULE$
+scala.collection.mutable.IndexedSeq$: scala.collection.mutable.IndexedSeq$ MODULE$
+scala.collection.mutable.IndexedSeqView$: scala.collection.mutable.IndexedSeqView$ MODULE$
+scala.collection.mutable.Iterable$: scala.collection.mutable.Iterable$ MODULE$
+scala.collection.mutable.Leaf$: scala.collection.mutable.Leaf$ MODULE$
+scala.collection.mutable.LinearSeq$: scala.collection.mutable.LinearSeq$ MODULE$
+scala.collection.mutable.LinkedHashMap$: scala.collection.mutable.LinkedHashMap$ MODULE$
+scala.collection.mutable.LinkedHashSet$: scala.collection.mutable.LinkedHashSet$ MODULE$
+scala.collection.mutable.LinkedList$: scala.collection.mutable.LinkedList$ MODULE$
+scala.collection.mutable.ListBuffer$: scala.collection.mutable.ListBuffer$ MODULE$
+scala.collection.mutable.ListMap$: scala.collection.mutable.ListMap$ MODULE$
+scala.collection.mutable.LongMap$: scala.collection.mutable.LongMap$ MODULE$
+scala.collection.mutable.Map$: scala.collection.mutable.Map$ MODULE$
+scala.collection.mutable.MutableList$: scala.collection.mutable.MutableList$ MODULE$
+scala.collection.mutable.Node$: scala.collection.mutable.Node$ MODULE$
+scala.collection.mutable.OpenHashMap$: scala.collection.mutable.OpenHashMap$ MODULE$
+scala.collection.mutable.PriorityQueue$: scala.collection.mutable.PriorityQueue$ MODULE$
+scala.collection.mutable.Queue$: scala.collection.mutable.Queue$ MODULE$
+scala.collection.mutable.ResizableArray$: scala.collection.mutable.ResizableArray$ MODULE$
+scala.collection.mutable.Seq$: scala.collection.mutable.Seq$ MODULE$
+scala.collection.mutable.Set$: scala.collection.mutable.Set$ MODULE$
+scala.collection.mutable.SortedSet$: scala.collection.mutable.SortedSet$ MODULE$
+scala.collection.mutable.Stack$: scala.collection.mutable.Stack$ MODULE$
+scala.collection.mutable.StringBuilder$: scala.collection.mutable.StringBuilder$ MODULE$
+scala.collection.mutable.Traversable$: scala.collection.mutable.Traversable$ MODULE$
+scala.collection.mutable.TreeSet$: scala.collection.mutable.TreeSet$ MODULE$
+scala.collection.mutable.UnrolledBuffer$: scala.collection.mutable.UnrolledBuffer$ MODULE$
+scala.collection.mutable.UnrolledBuffer$Unrolled$: scala.collection.mutable.UnrolledBuffer$Unrolled$ MODULE$
+scala.collection.mutable.WeakHashMap$: scala.collection.mutable.WeakHashMap$ MODULE$
+scala.collection.mutable.WrappedArray$: scala.collection.mutable.WrappedArray$ MODULE$
+scala.collection.package$: scala.collection.package$ MODULE$
+scala.collection.parallel.CompositeThrowable$: scala.collection.parallel.CompositeThrowable$ MODULE$
+scala.collection.parallel.ExecutionContextTaskSupport$: scala.collection.parallel.ExecutionContextTaskSupport$ MODULE$
+scala.collection.parallel.ForkJoinTaskSupport$: scala.collection.parallel.ForkJoinTaskSupport$ MODULE$
+scala.collection.parallel.ForkJoinTasks$: scala.collection.parallel.ForkJoinTasks$ MODULE$
+scala.collection.parallel.FutureThreadPoolTasks$: scala.collection.parallel.FutureThreadPoolTasks$ MODULE$
+scala.collection.parallel.ParIterable$: scala.collection.parallel.ParIterable$ MODULE$
+scala.collection.parallel.ParMap$: scala.collection.parallel.ParMap$ MODULE$
+scala.collection.parallel.ParSeq$: scala.collection.parallel.ParSeq$ MODULE$
+scala.collection.parallel.ParSet$: scala.collection.parallel.ParSet$ MODULE$
+scala.collection.parallel.ParallelCollectionImplicits$: scala.collection.parallel.ParallelCollectionImplicits$ MODULE$
+scala.collection.parallel.Splitter$: scala.collection.parallel.Splitter$ MODULE$
+scala.collection.parallel.ThreadPoolTaskSupport$: scala.collection.parallel.ThreadPoolTaskSupport$ MODULE$
+scala.collection.parallel.ThreadPoolTasks$: scala.collection.parallel.ThreadPoolTasks$ MODULE$
+scala.collection.parallel.immutable.HashMapCombiner$: scala.collection.parallel.immutable.HashMapCombiner$ MODULE$
+scala.collection.parallel.immutable.HashSetCombiner$: scala.collection.parallel.immutable.HashSetCombiner$ MODULE$
+scala.collection.parallel.immutable.ParHashMap$: scala.collection.parallel.immutable.ParHashMap$ MODULE$
+scala.collection.parallel.immutable.ParHashSet$: scala.collection.parallel.immutable.ParHashSet$ MODULE$
+scala.collection.parallel.immutable.ParIterable$: scala.collection.parallel.immutable.ParIterable$ MODULE$
+scala.collection.parallel.immutable.ParMap$: scala.collection.parallel.immutable.ParMap$ MODULE$
+scala.collection.parallel.immutable.ParRange$: scala.collection.parallel.immutable.ParRange$ MODULE$
+scala.collection.parallel.immutable.ParSeq$: scala.collection.parallel.immutable.ParSeq$ MODULE$
+scala.collection.parallel.immutable.ParSet$: scala.collection.parallel.immutable.ParSet$ MODULE$
+scala.collection.parallel.immutable.ParVector$: scala.collection.parallel.immutable.ParVector$ MODULE$
+scala.collection.parallel.immutable.package$: scala.collection.parallel.immutable.package$ MODULE$
+scala.collection.parallel.mutable.ParArray$: scala.collection.parallel.mutable.ParArray$ MODULE$
+scala.collection.parallel.mutable.ParHashMap$: scala.collection.parallel.mutable.ParHashMap$ MODULE$
+scala.collection.parallel.mutable.ParHashMapCombiner$: scala.collection.parallel.mutable.ParHashMapCombiner$ MODULE$
+scala.collection.parallel.mutable.ParHashSet$: scala.collection.parallel.mutable.ParHashSet$ MODULE$
+scala.collection.parallel.mutable.ParHashSetCombiner$: scala.collection.parallel.mutable.ParHashSetCombiner$ MODULE$
+scala.collection.parallel.mutable.ParIterable$: scala.collection.parallel.mutable.ParIterable$ MODULE$
+scala.collection.parallel.mutable.ParMap$: scala.collection.parallel.mutable.ParMap$ MODULE$
+scala.collection.parallel.mutable.ParSeq$: scala.collection.parallel.mutable.ParSeq$ MODULE$
+scala.collection.parallel.mutable.ParSet$: scala.collection.parallel.mutable.ParSet$ MODULE$
+scala.collection.parallel.mutable.ParTrieMap$: scala.collection.parallel.mutable.ParTrieMap$ MODULE$
+scala.collection.parallel.mutable.ResizableParArrayCombiner$: scala.collection.parallel.mutable.ResizableParArrayCombiner$ MODULE$
+scala.collection.parallel.mutable.UnrolledParArrayCombiner$: scala.collection.parallel.mutable.UnrolledParArrayCombiner$ MODULE$
+scala.collection.parallel.mutable.package$: scala.collection.parallel.mutable.package$ MODULE$
+scala.collection.parallel.package$: scala.collection.parallel.package$ MODULE$
+scala.collection.script.End$: scala.collection.script.End$ MODULE$
+scala.collection.script.Include$: scala.collection.script.Include$ MODULE$
+scala.collection.script.Index$: scala.collection.script.Index$ MODULE$
+scala.collection.script.NoLo$: scala.collection.script.NoLo$ MODULE$
+scala.collection.script.Remove$: scala.collection.script.Remove$ MODULE$
+scala.collection.script.Reset$: scala.collection.script.Reset$ MODULE$
+scala.collection.script.Start$: scala.collection.script.Start$ MODULE$
+scala.collection.script.Update$: scala.collection.script.Update$ MODULE$
+scala.compat.Platform$: scala.compat.Platform$ MODULE$
+scala.concurrent.Await$: scala.concurrent.Await$ MODULE$
+scala.concurrent.AwaitPermission$: scala.concurrent.AwaitPermission$ MODULE$
+scala.concurrent.BlockContext$: scala.concurrent.BlockContext$ MODULE$
+scala.concurrent.BlockContext$DefaultBlockContext$: scala.concurrent.BlockContext$DefaultBlockContext$ MODULE$
+scala.concurrent.ExecutionContext$: scala.concurrent.ExecutionContext$ MODULE$
+scala.concurrent.ExecutionContext$Implicits$: scala.concurrent.ExecutionContext$Implicits$ MODULE$
+scala.concurrent.Future$: scala.concurrent.Future$ MODULE$
+scala.concurrent.Future$InternalCallbackExecutor$: scala.concurrent.Future$InternalCallbackExecutor$ MODULE$
+scala.concurrent.JavaConversions$: scala.concurrent.JavaConversions$ MODULE$
+scala.concurrent.Promise$: scala.concurrent.Promise$ MODULE$
+scala.concurrent.duration.Deadline$: scala.concurrent.duration.Deadline$ MODULE$
+scala.concurrent.duration.Deadline$DeadlineIsOrdered$: scala.concurrent.duration.Deadline$DeadlineIsOrdered$ MODULE$
+scala.concurrent.duration.Duration$: scala.concurrent.duration.Duration$ MODULE$
+scala.concurrent.duration.Duration$DurationIsOrdered$: scala.concurrent.duration.Duration$DurationIsOrdered$ MODULE$
+scala.concurrent.duration.DurationConversions$: scala.concurrent.duration.DurationConversions$ MODULE$
+scala.concurrent.duration.DurationConversions$fromNowConvert$: scala.concurrent.duration.DurationConversions$fromNowConvert$ MODULE$
+scala.concurrent.duration.DurationConversions$spanConvert$: scala.concurrent.duration.DurationConversions$spanConvert$ MODULE$
+scala.concurrent.duration.FiniteDuration$: scala.concurrent.duration.FiniteDuration$ MODULE$
+scala.concurrent.duration.FiniteDuration$FiniteDurationIsOrdered$: scala.concurrent.duration.FiniteDuration$FiniteDurationIsOrdered$ MODULE$
+scala.concurrent.duration.package$: scala.concurrent.duration.package$ MODULE$
+scala.concurrent.duration.package$DoubleMult$: scala.concurrent.duration.package$DoubleMult$ MODULE$
+scala.concurrent.duration.package$DurationDouble$: scala.concurrent.duration.package$DurationDouble$ MODULE$
+scala.concurrent.duration.package$DurationInt$: scala.concurrent.duration.package$DurationInt$ MODULE$
+scala.concurrent.duration.package$DurationLong$: scala.concurrent.duration.package$DurationLong$ MODULE$
+scala.concurrent.duration.package$IntMult$: scala.concurrent.duration.package$IntMult$ MODULE$
+scala.concurrent.duration.package$LongMult$: scala.concurrent.duration.package$LongMult$ MODULE$
+scala.concurrent.duration.package$fromNow$: scala.concurrent.duration.package$fromNow$ MODULE$
+scala.concurrent.duration.package$span$: scala.concurrent.duration.package$span$ MODULE$
+scala.concurrent.forkjoin.ForkJoinTask: int status
+scala.concurrent.impl.ExecutionContextImpl$: scala.concurrent.impl.ExecutionContextImpl$ MODULE$
+scala.concurrent.impl.Future$: scala.concurrent.impl.Future$ MODULE$
+scala.concurrent.impl.Promise$: scala.concurrent.impl.Promise$ MODULE$
+scala.concurrent.package$: scala.concurrent.package$ MODULE$
+scala.deprecated$: scala.deprecated$ MODULE$
+scala.deprecatedInheritance$: scala.deprecatedInheritance$ MODULE$
+scala.deprecatedOverriding$: scala.deprecatedOverriding$ MODULE$
+scala.io.AnsiColor$: scala.io.AnsiColor$ MODULE$
+scala.io.Codec$: scala.io.Codec$ MODULE$
+scala.io.Position$: scala.io.Position$ MODULE$
+scala.io.Source$: scala.io.Source$ MODULE$
+scala.io.StdIn$: scala.io.StdIn$ MODULE$
+scala.language$: scala.language$ MODULE$
+scala.language$experimental$: scala.language$experimental$ MODULE$
+scala.languageFeature$: scala.languageFeature$ MODULE$
+scala.languageFeature$dynamics$: scala.languageFeature$dynamics$ MODULE$
+scala.languageFeature$existentials$: scala.languageFeature$existentials$ MODULE$
+scala.languageFeature$experimental$: scala.languageFeature$experimental$ MODULE$
+scala.languageFeature$experimental$macros$: scala.languageFeature$experimental$macros$ MODULE$
+scala.languageFeature$higherKinds$: scala.languageFeature$higherKinds$ MODULE$
+scala.languageFeature$implicitConversions$: scala.languageFeature$implicitConversions$ MODULE$
+scala.languageFeature$postfixOps$: scala.languageFeature$postfixOps$ MODULE$
+scala.languageFeature$reflectiveCalls$: scala.languageFeature$reflectiveCalls$ MODULE$
+scala.math.BigDecimal$: scala.math.BigDecimal$ MODULE$
+scala.math.BigDecimal$RoundingMode$: scala.math.BigDecimal$RoundingMode$ MODULE$
+scala.math.BigInt$: scala.math.BigInt$ MODULE$
+scala.math.Equiv$: scala.math.Equiv$ MODULE$
+scala.math.Fractional$: scala.math.Fractional$ MODULE$
+scala.math.Fractional$Implicits$: scala.math.Fractional$Implicits$ MODULE$
+scala.math.Integral$: scala.math.Integral$ MODULE$
+scala.math.Integral$Implicits$: scala.math.Integral$Implicits$ MODULE$
+scala.math.Numeric$: scala.math.Numeric$ MODULE$
+scala.math.Numeric$BigDecimalAsIfIntegral$: scala.math.Numeric$BigDecimalAsIfIntegral$ MODULE$
+scala.math.Numeric$BigDecimalIsFractional$: scala.math.Numeric$BigDecimalIsFractional$ MODULE$
+scala.math.Numeric$BigIntIsIntegral$: scala.math.Numeric$BigIntIsIntegral$ MODULE$
+scala.math.Numeric$ByteIsIntegral$: scala.math.Numeric$ByteIsIntegral$ MODULE$
+scala.math.Numeric$CharIsIntegral$: scala.math.Numeric$CharIsIntegral$ MODULE$
+scala.math.Numeric$DoubleAsIfIntegral$: scala.math.Numeric$DoubleAsIfIntegral$ MODULE$
+scala.math.Numeric$DoubleIsFractional$: scala.math.Numeric$DoubleIsFractional$ MODULE$
+scala.math.Numeric$FloatAsIfIntegral$: scala.math.Numeric$FloatAsIfIntegral$ MODULE$
+scala.math.Numeric$FloatIsFractional$: scala.math.Numeric$FloatIsFractional$ MODULE$
+scala.math.Numeric$Implicits$: scala.math.Numeric$Implicits$ MODULE$
+scala.math.Numeric$IntIsIntegral$: scala.math.Numeric$IntIsIntegral$ MODULE$
+scala.math.Numeric$LongIsIntegral$: scala.math.Numeric$LongIsIntegral$ MODULE$
+scala.math.Numeric$ShortIsIntegral$: scala.math.Numeric$ShortIsIntegral$ MODULE$
+scala.math.Ordered$: scala.math.Ordered$ MODULE$
+scala.math.Ordering$: scala.math.Ordering$ MODULE$
+scala.math.Ordering$BigDecimal$: scala.math.Ordering$BigDecimal$ MODULE$
+scala.math.Ordering$BigInt$: scala.math.Ordering$BigInt$ MODULE$
+scala.math.Ordering$Boolean$: scala.math.Ordering$Boolean$ MODULE$
+scala.math.Ordering$Byte$: scala.math.Ordering$Byte$ MODULE$
+scala.math.Ordering$Char$: scala.math.Ordering$Char$ MODULE$
+scala.math.Ordering$Double$: scala.math.Ordering$Double$ MODULE$
+scala.math.Ordering$Float$: scala.math.Ordering$Float$ MODULE$
+scala.math.Ordering$Implicits$: scala.math.Ordering$Implicits$ MODULE$
+scala.math.Ordering$Int$: scala.math.Ordering$Int$ MODULE$
+scala.math.Ordering$Long$: scala.math.Ordering$Long$ MODULE$
+scala.math.Ordering$Short$: scala.math.Ordering$Short$ MODULE$
+scala.math.Ordering$String$: scala.math.Ordering$String$ MODULE$
+scala.math.Ordering$Unit$: scala.math.Ordering$Unit$ MODULE$
+scala.math.package$: scala.math.package$ MODULE$
+scala.package$: scala.package$ MODULE$
+scala.ref.WeakReference$: scala.ref.WeakReference$ MODULE$
+scala.reflect.ClassManifestFactory$: scala.reflect.ClassManifestFactory$ MODULE$
+scala.reflect.ClassTag$: scala.reflect.ClassTag$ MODULE$
+scala.reflect.ManifestFactory$: scala.reflect.ManifestFactory$ MODULE$
+scala.reflect.NameTransformer$: scala.reflect.NameTransformer$ MODULE$
+scala.reflect.NoManifest$: scala.reflect.NoManifest$ MODULE$
+scala.reflect.ScalaSignature
+scala.reflect.package$: scala.reflect.package$ MODULE$
+scala.runtime.RichBoolean$: scala.runtime.RichBoolean$ MODULE$
+scala.runtime.RichByte$: scala.runtime.RichByte$ MODULE$
+scala.runtime.RichChar$: scala.runtime.RichChar$ MODULE$
+scala.runtime.RichDouble$: scala.runtime.RichDouble$ MODULE$
+scala.runtime.RichFloat$: scala.runtime.RichFloat$ MODULE$
+scala.runtime.RichInt$: scala.runtime.RichInt$ MODULE$
+scala.runtime.RichLong$: scala.runtime.RichLong$ MODULE$
+scala.runtime.RichShort$: scala.runtime.RichShort$ MODULE$
+scala.runtime.ScalaRunTime$: scala.runtime.ScalaRunTime$ MODULE$
+scala.runtime.StringAdd$: scala.runtime.StringAdd$ MODULE$
+scala.runtime.StringFormat$: scala.runtime.StringFormat$ MODULE$
+scala.runtime.Tuple2Zipped$: scala.runtime.Tuple2Zipped$ MODULE$
+scala.runtime.Tuple2Zipped$Ops$: scala.runtime.Tuple2Zipped$Ops$ MODULE$
+scala.runtime.Tuple3Zipped$: scala.runtime.Tuple3Zipped$ MODULE$
+scala.runtime.Tuple3Zipped$Ops$: scala.runtime.Tuple3Zipped$Ops$ MODULE$
+scala.runtime.ZippedTraversable2$: scala.runtime.ZippedTraversable2$ MODULE$
+scala.runtime.ZippedTraversable3$: scala.runtime.ZippedTraversable3$ MODULE$
+scala.runtime.package$: scala.runtime.package$ MODULE$
+scala.sys.BooleanProp$: scala.sys.BooleanProp$ MODULE$
+scala.sys.Prop$: scala.sys.Prop$ MODULE$
+scala.sys.Prop$DoubleProp$: scala.sys.Prop$DoubleProp$ MODULE$
+scala.sys.Prop$FileProp$: scala.sys.Prop$FileProp$ MODULE$
+scala.sys.Prop$IntProp$: scala.sys.Prop$IntProp$ MODULE$
+scala.sys.Prop$StringProp$: scala.sys.Prop$StringProp$ MODULE$
+scala.sys.ShutdownHookThread$: scala.sys.ShutdownHookThread$ MODULE$
+scala.sys.SystemProperties$: scala.sys.SystemProperties$ MODULE$
+scala.sys.package$: scala.sys.package$ MODULE$
+scala.sys.process.BasicIO$: scala.sys.process.BasicIO$ MODULE$
+scala.sys.process.BasicIO$Streamed$: scala.sys.process.BasicIO$Streamed$ MODULE$
+scala.sys.process.BasicIO$Uncloseable$: scala.sys.process.BasicIO$Uncloseable$ MODULE$
+scala.sys.process.Process$: scala.sys.process.Process$ MODULE$
+scala.sys.process.ProcessBuilder$: scala.sys.process.ProcessBuilder$ MODULE$
+scala.sys.process.ProcessLogger$: scala.sys.process.ProcessLogger$ MODULE$
+scala.sys.process.package$: scala.sys.process.package$ MODULE$
+scala.sys.process.processInternal$: scala.sys.process.processInternal$ MODULE$
+scala.text.DocBreak$: scala.text.DocBreak$ MODULE$
+scala.text.DocCons$: scala.text.DocCons$ MODULE$
+scala.text.DocGroup$: scala.text.DocGroup$ MODULE$
+scala.text.DocNest$: scala.text.DocNest$ MODULE$
+scala.text.DocNil$: scala.text.DocNil$ MODULE$
+scala.text.DocText$: scala.text.DocText$ MODULE$
+scala.text.Document$: scala.text.Document$ MODULE$
+scala.throws$: scala.throws$ MODULE$
+scala.util.Either$: scala.util.Either$ MODULE$
+scala.util.Either$LeftProjection$: scala.util.Either$LeftProjection$ MODULE$
+scala.util.Either$MergeableEither$: scala.util.Either$MergeableEither$ MODULE$
+scala.util.Either$RightProjection$: scala.util.Either$RightProjection$ MODULE$
+scala.util.Failure$: scala.util.Failure$ MODULE$
+scala.util.Left$: scala.util.Left$ MODULE$
+scala.util.MurmurHash$: scala.util.MurmurHash$ MODULE$
+scala.util.Properties$: scala.util.Properties$ MODULE$
+scala.util.Random$: scala.util.Random$ MODULE$
+scala.util.Right$: scala.util.Right$ MODULE$
+scala.util.Sorting$: scala.util.Sorting$ MODULE$
+scala.util.Success$: scala.util.Success$ MODULE$
+scala.util.Try$: scala.util.Try$ MODULE$
+scala.util.control.Breaks$: scala.util.control.Breaks$ MODULE$
+scala.util.control.Exception$: scala.util.control.Exception$ MODULE$
+scala.util.control.Exception$Catch$: scala.util.control.Exception$Catch$ MODULE$
+scala.util.control.NoStackTrace$: scala.util.control.NoStackTrace$ MODULE$
+scala.util.control.NonFatal$: scala.util.control.NonFatal$ MODULE$
+scala.util.control.TailCalls$: scala.util.control.TailCalls$ MODULE$
+scala.util.control.TailCalls$Call$: scala.util.control.TailCalls$Call$ MODULE$
+scala.util.control.TailCalls$Cont$: scala.util.control.TailCalls$Cont$ MODULE$
+scala.util.control.TailCalls$Done$: scala.util.control.TailCalls$Done$ MODULE$
+scala.util.hashing.ByteswapHashing$: scala.util.hashing.ByteswapHashing$ MODULE$
+scala.util.hashing.Hashing$: scala.util.hashing.Hashing$ MODULE$
+scala.util.hashing.MurmurHash3$: scala.util.hashing.MurmurHash3$ MODULE$
+scala.util.hashing.package$: scala.util.hashing.package$ MODULE$
+scala.util.matching.Regex$: scala.util.matching.Regex$ MODULE$
+scala.util.matching.Regex$Groups$: scala.util.matching.Regex$Groups$ MODULE$
+scala.util.matching.Regex$Match$: scala.util.matching.Regex$Match$ MODULE$
+uk.co.senab.photoview.PhotoView: void setPhotoViewRotation(float)
+uk.co.senab.photoview.PhotoView: void setRotationTo(float)
+uk.co.senab.photoview.PhotoView: void setRotationBy(float)
+uk.co.senab.photoview.PhotoView: android.graphics.RectF getDisplayRect()
+uk.co.senab.photoview.PhotoView: android.graphics.Matrix getDisplayMatrix()
+uk.co.senab.photoview.PhotoView: float getMinScale()
+uk.co.senab.photoview.PhotoView: float getMinimumScale()
+uk.co.senab.photoview.PhotoView: float getMidScale()
+uk.co.senab.photoview.PhotoView: float getMediumScale()
+uk.co.senab.photoview.PhotoView: float getMaxScale()
+uk.co.senab.photoview.PhotoView: float getMaximumScale()
+uk.co.senab.photoview.PhotoView: float getScale()
+uk.co.senab.photoview.PhotoView: android.widget.ImageView$ScaleType getScaleType()
+uk.co.senab.photoview.PhotoView: void setAllowParentInterceptOnEdge(boolean)
+uk.co.senab.photoview.PhotoView: void setMinScale(float)
+uk.co.senab.photoview.PhotoView: void setMinimumScale(float)
+uk.co.senab.photoview.PhotoView: void setMidScale(float)
+uk.co.senab.photoview.PhotoView: void setMediumScale(float)
+uk.co.senab.photoview.PhotoView: void setMaxScale(float)
+uk.co.senab.photoview.PhotoView: void setMaximumScale(float)
+uk.co.senab.photoview.PhotoView: void setImageDrawable(android.graphics.drawable.Drawable)
+uk.co.senab.photoview.PhotoView: void setImageResource(int)
+uk.co.senab.photoview.PhotoView: void setImageURI(android.net.Uri)
+uk.co.senab.photoview.PhotoView: void setOnMatrixChangeListener(uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener)
+uk.co.senab.photoview.PhotoView: void setOnLongClickListener(android.view.View$OnLongClickListener)
+uk.co.senab.photoview.PhotoView: void setOnPhotoTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener)
+uk.co.senab.photoview.PhotoView: uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener getOnPhotoTapListener()
+uk.co.senab.photoview.PhotoView: void setOnViewTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener)
+uk.co.senab.photoview.PhotoView: uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener getOnViewTapListener()
+uk.co.senab.photoview.PhotoView: void setScale(float)
+uk.co.senab.photoview.PhotoView: void setScaleType(android.widget.ImageView$ScaleType)
+uk.co.senab.photoview.PhotoView: void setZoomable(boolean)
+uk.co.senab.photoview.PhotoView: android.graphics.Bitmap getVisibleRectangleBitmap()
+uk.co.senab.photoview.PhotoView: void setZoomTransitionDuration(int)
+uk.co.senab.photoview.PhotoView: uk.co.senab.photoview.IPhotoView getIPhotoViewImplementation()
+uk.co.senab.photoview.PhotoView: void setOnDoubleTapListener(android.view.GestureDetector$OnDoubleTapListener)

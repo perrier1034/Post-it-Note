@@ -1,0 +1,6 @@
+sbt clearn
+clearn
+clean
+proguard:clean
+help
+reload

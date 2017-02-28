@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout_ex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/compose_bg"
+    android:orientation="vertical">
+
+
+    <com.android.perrier1034.post_it_note.ui.views.ScrollViewEx
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/im_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Title -->
+                <EditText
+                    android:id="@+id/f_editable_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:hint="@string/nef_sub_title"
+                    android:lineSpacingExtra="6dp"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingEnd="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="12dp"
+                    android:singleLine="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#cccccc"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/f_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:textSize="12sp">
+                    <requestFocus/>
+                </TextView>
+
+            </LinearLayout>
+
+            <!-- Content -->
+            <EditText
+                android:id="@+id/f_note_main_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:autoLink="web|email"
+                android:background="#00000000"
+                android:gravity="top"
+                android:hint="@string/nef_body"
+                android:lineSpacingExtra="6dp"
+                android:linksClickable="true"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textColor="#ff000000"
+                android:textColorHint="#cccccc"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </com.android.perrier1034.post_it_note.ui.views.ScrollViewEx>
+
+    <!--default ... 44-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:minHeight="44dp">
+        <!--android:theme="@style/Theme.Toolbar">-->
+
+        <Spinner
+            android:id="@+id/spinner_page"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <!--app:theme="@style/AppTheme"-->
+
+
+    </android.support.v7.widget.Toolbar>
+    <!--<include layout="@layout/fragment_component_btns"/>-->
+
+</com.android.perrier1034.post_it_note.ui.views.LinearLayoutEx>

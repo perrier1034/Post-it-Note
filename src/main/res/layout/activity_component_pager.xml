@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tab_strip_main"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"/>
+
+    <FrameLayout
+        android:id="@+id/container_of_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.perrier1034.post_it_note.ui.views.LockableViewPager
+            android:id="@+id/pager_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_dropshadow"/>
+    </FrameLayout>
+
+</LinearLayout>

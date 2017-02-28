@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.perrier.todomanager.ui.PageManager">
+
+    <item
+        android:id="@+id/clean_rubbish"
+        android:icon="@drawable/ic_action_toolbar_delete"
+        android:title="@string/clean_rubbish"
+        tools:ignore="HardcodedText,UnusedAttribute"/>
+    <!--app:showAsAction="ifRoom"-->
+</menu>

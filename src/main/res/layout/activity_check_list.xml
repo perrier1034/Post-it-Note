@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/compose_bg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/f_recycler_view_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <EditText
+            android:id="@+id/f_editable_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="12dp"
+            android:background="#00000000"
+            android:hint="@string/nef_sub_title"
+            android:lineSpacingExtra="6dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:paddingBottom="2dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:paddingTop="15dp"
+            android:textColor="#ff000000"
+            android:textColorHint="#cccccc"
+            android:textSize="17sp"
+            android:textStyle="bold">
+            <!--<requestFocus />-->
+        </EditText>
+        <!--RecyclerView-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"/>
+
+    </LinearLayout>
+
+    <!--default ... 44-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:minHeight="44dp">
+        <!--app:theme="@style/Theme.Toolbar">-->
+
+        <Spinner
+            android:id="@+id/spinner_page"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content">
+            <!--<requestFocus/>-->
+            <!--app:theme="@style/AppTheme"-->
+        </Spinner>
+
+    </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--     Font setting -->
+    <!--<PreferenceCategory android:title="@string/setting_title_ui_setting">-->
+
+        <!--&lt;!&ndash;     Font size &ndash;&gt;-->
+        <!--<ListPreference-->
+            <!--android:defaultValue="1"-->
+            <!--android:entries="@array/textsize_entries"-->
+            <!--android:entryValues="@array/textsize_entryvalues"-->
+            <!--android:key="key_font_size"-->
+            <!--android:title="@string/setting_subt_font_size"/>-->
+
+        <!--&lt;!&ndash;     Anim &ndash;&gt;-->
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="key_anim"-->
+            <!--android:title="@string/setting_subt_disable_anim"/>-->
+
+    <!--</PreferenceCategory>-->
+
+    <!--     Other setting -->
+    <PreferenceCategory android:title="@string/setting_title_others">
+
+        <!--     wipe db -->
+        <!--<Preference-->
+        <!--android:key="key_wipe_db"-->
+        <!--android:title="@string/setting_subt_wipe_db"/>-->
+
+        <!--     Backup -->
+        <Preference
+            android:key="key_backup"
+            android:title="@string/setting_subt_backup"/>
+
+        <!--     import -->
+        <Preference
+            android:key="key_import"
+            android:title="@string/setting_subt_import"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

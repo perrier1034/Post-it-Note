@@ -1,0 +1,93 @@
+<resources>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="actionBarStyle">@style/My.ActionBar.Style</item>-->
+        <!--<item name="actionModeBackground">@color/colorPrimaryDark</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="colorAccent">#00BCD4</item>-->
+    <!--</style>-->
+
+    <!--<style name="Theme.Compose" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="actionBarStyle">@style/My.ActionBar.Style</item>-->
+        <!--&lt;!&ndash;<item name="android:windowContentOverlay">@null</item>&ndash;&gt;-->
+        <!--<item name="actionModeBackground">@color/colorPrimaryDark</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation</item>-->
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:windowCloseOnTouchOutside">true</item>-->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+    <!--</style>-->
+
+    <style name="TransparentDialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimAmount">.7</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--<style name="Theme.Toolbar" parent="Theme.AppCompat">-->
+        <!--<item name="actionModeBackground">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--</style>-->
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="commonNativeShadowItemViewStyle">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="commonNinePatchShadowContainerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="commonListItemStyle">
+    </style>
+
+    <style name="commonNinePatchShadowItemViewStyle">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="myRecyclerViewStyle">
+        <!-- NOTE: clipChildren should be true on API level 10 -->
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+</resources>

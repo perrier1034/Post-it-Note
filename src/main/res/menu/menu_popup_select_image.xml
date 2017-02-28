@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_capture_image"
+        android:title="@string/popup_capture_image"></item>
+    <item
+        android:id="@+id/popup_viewer"
+        android:title="@string/popup_select_image"></item>
+</menu>

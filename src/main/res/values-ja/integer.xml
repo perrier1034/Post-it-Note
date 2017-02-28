@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="DEFAULT_COLOR_MAIN">0xffececec</integer>
+    <integer name="DEFAULT_COLOR_BAR">0xffff9900</integer>
+    <integer name="DEFAULT_COLOR_FONT">0xff000000</integer>
+    <integer name="DEFAULT_COLOR_FONT_BAR">0xffffffff</integer>
+</resources>

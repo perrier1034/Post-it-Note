@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="post-it-note" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../target/android-gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../target/android-gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../src/main/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../src/main/libs" />
+        <option name="APK_PATH" value="/../../target/android-bin/.build_integration/post-it-note-BUILD-INTEGRATION.apk" />
+        <option name="RUN_PROGUARD" value="true" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../proguard_logs" />
+        <proGuardCfgFiles>
+          <file>$MODULE_DIR$/../../proguard-sbt.txt</file>
+        </proGuardCfgFiles>
+        <option name="ENABLE_SOURCES_AUTOGENERATION" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala-2.11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala-2.11" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/.history" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/aars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/android-bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/scala-2.10" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/scala-2.11" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.1.0/support-v4-22.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.1.0/appcompat-v7-22.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.realm/realm/docs/realm-0.69.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/docs/advrecyclerview-0.6.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/22.1.0/recyclerview-v7-22.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.vrallev.android/android-task/docs/android-task-1.0.7-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.astuetz/pagerslidingtabstrip/docs/pagerslidingtabstrip-1.0.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.github.chrisbanes.photoview/library/docs/library-1.2.3-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/22.1.0/cardview-v7-22.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.2.1/appcompat-v7-22.2.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.evernote/android-sdk/docs/android-sdk-2.0.0-RC3-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/docs/advrecyclerview-0.8.6-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.0/support-v4-23.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.0/appcompat-v7-23.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/23.1.0/design-23.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.0/recyclerview-v7-23.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.0/cardview-v7-23.1.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.1.0/support-v4-22.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.1.0/appcompat-v7-22.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.2.1/appcompat-v7-22.2.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.vrallev.android/android-task/srcs/android-task-1.0.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/srcs/advrecyclerview-0.6.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/22.1.0/cardview-v7-22.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.prolificinteractive/material-calendarview/srcs/material-calendarview-0.8.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/22.1.0/recyclerview-v7-22.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.evernote/android-sdk/srcs/android-sdk-2.0.0-RC3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.astuetz/pagerslidingtabstrip/srcs/pagerslidingtabstrip-1.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.github.chrisbanes.photoview/library/srcs/library-1.2.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/srcs/advrecyclerview-0.8.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.0/recyclerview-v7-23.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.0/support-v4-23.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/23.1.0/design-23.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.0/appcompat-v7-23.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.0/cardview-v7-23.1.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.android.support:support-annotations:23.1.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.evernote:evernote-api:1.25.1:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.evernote/evernote-api/jars/evernote-api-1.25.1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.evernote/evernote-api/docs/evernote-api-1.25.1-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.evernote/evernote-api/srcs/evernote-api-1.25.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.squareup.okhttp:okhttp:2.4.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/jars/okhttp-2.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/docs/okhttp-2.4.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/srcs/okhttp-2.4.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.squareup.okio:okio:1.4.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/docs/okio-1.4.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/srcs/okio-1.4.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.squareup.picasso:picasso:2.5.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.picasso/picasso/jars/picasso-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.picasso/picasso/docs/picasso-2.5.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.picasso/picasso/srcs/picasso-2.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.realm:realm-android:0.87.4:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.realm/realm-android/jars/realm-android-0.87.4.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.realm/realm-android/docs/realm-android-0.87.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.realm/realm-android/srcs/realm-android-0.87.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: net.sf.proguard:proguard-base:5.1:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.proguard/proguard-base/jars/proguard-base-5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.proguard/proguard-base/docs/proguard-base-5.1-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.proguard/proguard-base/srcs/proguard-base-5.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.scala-lang:scala-library:2.11.7:jar" type="Scala">
+        <properties>
+          <compiler-classpath>
+            <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar" />
+            <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar" />
+            <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.scribe:scribe:1.3.7:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scribe/scribe/jars/scribe-1.3.7.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scribe/scribe/docs/scribe-1.3.7-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scribe/scribe/srcs/scribe-1.3.7-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

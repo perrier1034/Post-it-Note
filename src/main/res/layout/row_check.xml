@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/bg_swipe_item_neutral">
+
+    <LinearLayout
+        android:id="@+id/container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox_check_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"/>
+
+        <com.android.perrier1034.post_it_note.ui.views.HackyEditText
+            android:id="@+id/main_text_row_note"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="new"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#ff111111"
+            android:textColorHint="#33000000"
+            android:textSize="15sp"/>
+
+        <FrameLayout
+            android:id="@+id/check_list_handle"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/pressed_selector_dd">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="Drag-Drop"
+                android:duplicateParentState="true"
+                android:src="@drawable/ic_material_drag_handle_dark"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/note_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android.support.v7.cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!--android.support.v7.cardview:cardElevation="7dp">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#22ff0000"
+                  android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/popup_window_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="Done!"
+            android:textColor="#333333"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/popup_window_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/delete"
+            android:textColor="#333333"
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

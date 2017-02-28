@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--cardView で rootView にパディングされない現象はインフレートするときの
+parentView が適切でないときに起こる-->
+<android.support.v7.widget.CardView
+    android:id="@+id/shadow_item_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+    card_view:cardUseCompatPadding="true">
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardBackgroundColor="#00000000"-->
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_checkable_layout"
+        android:orientation="vertical">
+
+        <!-- title / thumbnail -->
+        <FrameLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|start"
+            android:layout_margin="4dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:scaleType='fitXY'
+                android:layout_gravity="center"
+                android:background="@null"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|start"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/text_size_large"/>
+
+        </FrameLayout>
+
+        <!-- main text / rows of check items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="7dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="6dp">
+
+            <TextView
+                android:id="@+id/main_text_row_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="5"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/main_text_row_note0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_navigation_check"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/main_text_row_note1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_navigation_check"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/main_text_row_note2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_navigation_check"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/main_text_row_note3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_navigation_check"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/main_text_row_note4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_navigation_check"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff696969"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/picked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:paddingBottom="4dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/text_size_small"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
